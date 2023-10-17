@@ -1,1 +1,3 @@
-Rozdział 4 
+1. Rozdział 4
+
+2. dodać plik Bazy_danych_Apple.docx do katalogu tmp
