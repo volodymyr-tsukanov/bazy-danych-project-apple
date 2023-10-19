@@ -14,4 +14,40 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DeliveryMethodKey" id="7274A263-0597-A32D-5A24-7925F8317267">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:38:07 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DeliveryMethodName" id="C73EF503-1307-AAF4-8459-325BABD852BC">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:38:29 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03694551-AB2C-AD22-E876-25D69962F50D" name="Delivery Method PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:38:23 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7274A263-0597-A32D-5A24-7925F8317267</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

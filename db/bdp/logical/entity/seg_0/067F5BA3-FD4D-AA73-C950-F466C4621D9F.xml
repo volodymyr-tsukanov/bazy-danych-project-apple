@@ -14,4 +14,74 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CustomerKey" id="CE221A1F-7C09-FDD6-CE56-CA6C42A51787">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:46:59 UTC</createdTime>
+<generatorID>6D9E4D24-79E2-9A0A-B365-F949CA103D8C</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<referedAttribute>4B77D631-86DC-2A82-C3B0-79A1ED566C33</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductKey" id="702535E3-E611-D72D-2E2E-9A246977E953">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:54:59 UTC</createdTime>
+<generatorID>1761565A-7BB6-3BF8-FCA9-8665558F0F0A</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<referedAttribute>07F6E527-29C7-B955-58F2-C7E9E0961FA9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QuestionKey" id="6C4822B1-EC8E-0704-DBC3-57D8BF20DE75">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 18:03:19 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QuestionTitle" id="5F2185D0-1E2C-C66F-BF8C-15C1DF9F20D8">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 18:03:32 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QuestionBody" id="912638E0-9B61-E950-1881-A26A77F41B54">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 18:03:47 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="46B65C0F-2831-39B6-E6F9-9901D188E7AC" name="Question PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 18:03:31 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6C4822B1-EC8E-0704-DBC3-57D8BF20DE75</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -14,4 +14,85 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CityKey" id="1C179838-9FEF-8AB2-387C-055EBF36FAEB">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:45:09 UTC</createdTime>
+<generatorID>8F6821A3-A655-BEAD-CE6A-3D5FB710D855</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<referedAttribute>2C93C47E-054F-EF39-768A-6D3F05E970ED</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CustomerKey" id="4B77D631-86DC-2A82-C3B0-79A1ED566C33">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:46:18 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="F6A7E63C-9BAD-32FD-CE20-3001AE73863B">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:46:38 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="3D2358E2-EE55-9431-AFBF-584C5825DB42">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:46:48 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="C39A5EC7-34EE-A6F7-2844-48B4CE2370D8">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 18:01:23 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AdministratorKey" id="25EF32FF-7FC8-CC0A-1E66-B288748E2DC0">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 18:05:06 UTC</createdTime>
+<generatorID>F3278513-94CF-52A2-9563-3E93ECABE478</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<referedAttribute>6A271DCA-278B-794B-6384-E7B8A767218E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E75FDEB-2520-2345-5670-3B662EE1B7A7" name="Customer PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:46:25 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B77D631-86DC-2A82-C3B0-79A1ED566C33</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

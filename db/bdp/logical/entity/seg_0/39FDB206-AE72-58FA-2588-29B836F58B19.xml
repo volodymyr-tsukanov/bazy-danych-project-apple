@@ -14,4 +14,40 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OrderStatusKey" id="499D6085-C3BA-8D54-66C0-E4988457988B">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:51:28 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderStatusName" id="16FB46C2-D39A-C782-A9C5-42165879719E">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:51:38 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E8033997-C89E-46AD-AB05-C79B1A03220E" name="Order Status PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:51:37 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>499D6085-C3BA-8D54-66C0-E4988457988B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

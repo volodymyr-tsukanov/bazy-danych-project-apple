@@ -14,4 +14,64 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ProductKey" id="5B53DFEA-A1F0-3627-4D7F-73BDF69E3EA3">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:54:59 UTC</createdTime>
+<generatorID>2C5EE720-DAB5-6AB1-D1CD-C617734CC435</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<referedAttribute>07F6E527-29C7-B955-58F2-C7E9E0961FA9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductSubcategoryKey" id="07014949-3281-4ED2-F60B-EDE23EE7ECBF">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:57:21 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductSubcategoryName" id="3CB44043-A416-DBE0-BFC6-B4CAA10C4005">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:57:47 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductCategoryKey" id="FE4D6A3A-DE9C-7257-F44D-FAE7605E4ECE">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:59:31 UTC</createdTime>
+<generatorID>10F75AB2-4A08-10C8-91CE-E9DBC79BA2FE</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<referedAttribute>9938A2CE-156B-0E11-D05F-B3737893FA79</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD3482B9-7710-43FB-78AA-846940428D92" name="Product Subcategory PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:57:45 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>07014949-3281-4ED2-F60B-EDE23EE7ECBF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

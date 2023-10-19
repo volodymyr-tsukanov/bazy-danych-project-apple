@@ -14,4 +14,42 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OrderKey" id="4A03CAB6-7015-DDDA-1BCE-9E733CE65195">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:35:54 UTC</createdTime>
+<generatorID>89347F10-D306-FA6F-0563-A90C97C6D3DE</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<referedAttribute>C24D81FE-E88F-B678-E4BC-49C23DA88154</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RefundKey" id="FC7E4DC4-C327-6131-CB06-69FBB253B156">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 18:00:26 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="59FAEBD3-0CC8-C540-8BE3-45E463762B10" name="Refund PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 18:00:33 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC7E4DC4-C327-6131-CB06-69FBB253B156</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -14,4 +14,40 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SalesTerritoryKey" id="220FCC3D-BF66-41F9-4F63-754616E1979C">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:43:34 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SalesTerritoryName" id="59A59A99-6BF7-C41D-3E6D-078D79D27A88">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:44:22 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E50FAF39-DB94-7994-1506-36976CFC0A21" name="Sales Territory PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:43:51 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>220FCC3D-BF66-41F9-4F63-754616E1979C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
