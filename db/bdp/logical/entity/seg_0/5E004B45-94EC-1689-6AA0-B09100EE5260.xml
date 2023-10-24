@@ -22,8 +22,11 @@
 <engineerTo>
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DeliveryMethodName" id="C73EF503-1307-AAF4-8459-325BABD852BC">
 <createdBy>VladiMr</createdBy>
@@ -32,8 +35,11 @@
 <engineerTo>
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -47,6 +53,18 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>7274A263-0597-A32D-5A24-7925F8317267</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="DA353B73-2967-BB49-AB3F-351D5DA78705" name="Name">
+<createdBy>karol</createdBy>
+<createdTime>2023-10-23 21:52:23 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<newElementsIDs>C73EF503-1307-AAF4-8459-325BABD852BC</newElementsIDs>
+<usedAttributes>
+<attributeRef>C73EF503-1307-AAF4-8459-325BABD852BC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

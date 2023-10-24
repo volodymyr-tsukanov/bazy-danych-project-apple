@@ -24,8 +24,11 @@
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
 <referedAttribute>2C93C47E-054F-EF39-768A-6D3F05E970ED</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CustomerKey" id="4B77D631-86DC-2A82-C3B0-79A1ED566C33">
 <createdBy>VladiMr</createdBy>
@@ -34,8 +37,11 @@
 <engineerTo>
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="FirstName" id="F6A7E63C-9BAD-32FD-CE20-3001AE73863B">
 <createdBy>VladiMr</createdBy>
@@ -44,8 +50,11 @@
 <engineerTo>
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="LastName" id="3D2358E2-EE55-9431-AFBF-584C5825DB42">
 <createdBy>VladiMr</createdBy>
@@ -54,8 +63,11 @@
 <engineerTo>
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Email" id="C39A5EC7-34EE-A6F7-2844-48B4CE2370D8">
 <createdBy>VladiMr</createdBy>
@@ -64,20 +76,64 @@
 <engineerTo>
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="AdministratorKey" id="25EF32FF-7FC8-CC0A-1E66-B288748E2DC0">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-19 18:05:06 UTC</createdTime>
-<generatorID>F3278513-94CF-52A2-9563-3E93ECABE478</generatorID>
+<Attribute name="AdministratorKey1" id="2DCC4DF0-0686-79DB-78D7-903775CEB55C">
+<createdBy>karol</createdBy>
+<createdTime>2023-10-23 21:14:51 UTC</createdTime>
+<generatorID>4EC98F5F-72C3-F1FE-BAAA-B6E429AC9F29</generatorID>
 <ownerDesignName>bdp</ownerDesignName>
 <engineerTo>
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
 <referedAttribute>6A271DCA-278B-794B-6384-E7B8A767218E</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PhoneNumber" id="A7C16C8F-6C2E-FDED-3C97-C569050657A9">
+<createdBy>karol</createdBy>
+<createdTime>2023-10-23 21:18:00 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="49ECEA6B-3F83-C41A-76C7-85AD27883966">
+<createdBy>karol</createdBy>
+<createdTime>2023-10-23 21:48:40 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ModificationDate" id="861FD6C2-E217-B9D0-D3DA-9EF02377EB9C">
+<createdBy>student</createdBy>
+<createdTime>2023-10-24 08:15:06 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -92,6 +148,18 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>4B77D631-86DC-2A82-C3B0-79A1ED566C33</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2043457F-9076-74C2-4557-40BAE76E0DCA" name="Email">
+<createdBy>karol</createdBy>
+<createdTime>2023-10-23 21:34:08 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<newElementsIDs>C39A5EC7-34EE-A6F7-2844-48B4CE2370D8</newElementsIDs>
+<usedAttributes>
+<attributeRef>C39A5EC7-34EE-A6F7-2844-48B4CE2370D8</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

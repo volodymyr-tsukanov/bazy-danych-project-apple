@@ -15,27 +15,32 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="CounryKey" id="DC51657F-8DDF-FF24-E933-D5798A7A71FD">
+<Attribute name="CountryKey" id="DC51657F-8DDF-FF24-E933-D5798A7A71FD">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 17:40:39 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
 <engineerTo>
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CounryName" id="15B21990-D6DC-B3D7-277E-9A4676A362EA">
+<Attribute name="CountryName" id="15B21990-D6DC-B3D7-277E-9A4676A362EA">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 17:40:47 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
 <engineerTo>
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
-<dataTypeSize> CHAR</dataTypeSize>
-<ownDataTypeParameters> CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CountryCode" id="6430B5AE-5205-BE46-C8B5-3796C0E5E368">
 <createdBy>VladiMr</createdBy>
@@ -44,19 +49,24 @@
 <engineerTo>
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SalesTerritoryKey" id="FE81BC4E-D325-65C0-4083-773BFBDA0818">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-19 17:43:52 UTC</createdTime>
+<Attribute name="SalesTerritoryKey" id="37BCB2D3-E8B1-8BCE-D0F7-BF99C2FD72A3">
+<createdBy>karol</createdBy>
+<createdTime>2023-10-23 21:29:27 UTC</createdTime>
 <generatorID>EE1A9B8E-2B1A-C75D-BDFD-BAA74C8F034F</generatorID>
 <ownerDesignName>bdp</ownerDesignName>
 <engineerTo>
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
 <referedAttribute>220FCC3D-BF66-41F9-4F63-754616E1979C</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -69,8 +79,33 @@
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>DC51657F-8DDF-FF24-E933-D5798A7A71FD</newElementsIDs>
 <usedAttributes>
 <attributeRef>DC51657F-8DDF-FF24-E933-D5798A7A71FD</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="14A17547-3292-91EC-4AF7-8C2D791C8DEE" name="CountryCode">
+<createdBy>karol</createdBy>
+<createdTime>2023-10-23 21:36:03 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<newElementsIDs>6430B5AE-5205-BE46-C8B5-3796C0E5E368</newElementsIDs>
+<usedAttributes>
+<attributeRef>6430B5AE-5205-BE46-C8B5-3796C0E5E368</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2B2195AA-3710-ABA1-A6EC-2E9CB53E0B1B" name="Name">
+<createdBy>karol</createdBy>
+<createdTime>2023-10-23 22:10:53 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<newElementsIDs>15B21990-D6DC-B3D7-277E-9A4676A362EA</newElementsIDs>
+<usedAttributes>
+<attributeRef>15B21990-D6DC-B3D7-277E-9A4676A362EA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
