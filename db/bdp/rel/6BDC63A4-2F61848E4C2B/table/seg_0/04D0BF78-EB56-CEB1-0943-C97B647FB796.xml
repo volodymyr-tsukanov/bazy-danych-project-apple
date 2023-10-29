@@ -1,0 +1,257 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04D0BF78-EB56-CEB1-0943-C97B647FB796" name="Order_Header">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>2120BA58-CDA0-912E-17C2-CD7B1A2CB216</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrderKey" id="51CFDEC3-0E4D-A0BF-8813-75CE55C67EBF">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>C24D81FE-E88F-B678-E4BC-49C23DA88154</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrderDate" id="6C5ADBD5-06E8-6F12-C183-24E698A354D4">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>F84D7B0D-D714-A1B3-116E-C24FD02A600F</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DeliveryDate" id="288DA0C1-B22C-86C3-3658-E3F6A1A8CAC6">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>45A6953D-4A85-0A51-88E5-1E4D733F13DD</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DeliveryCost" id="1ECB1141-F4FF-B5E6-F757-6E1CBE360CF0">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>D9641247-9BDE-4FFC-DDA4-E7057AF0E026</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Delivery_Method_DeliveryMethodKey" id="703FAB12-CB16-7EC1-D4FA-3EA25A4B0175">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>498780DE-0A3D-E189-86EE-0F0BB3F845F9</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3A8EA0B-3225-BC48-4CAA-7068BD8D29BF" referredColumn="BFB74797-162B-CFEA-EE50-97D9468BD9E6"/>
+</associations>
+</Column>
+<Column name="Customer_CustomerKey" id="D2C83115-C343-0BC5-CA19-8AC0B7B90677">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>09C35A20-8DBE-9ACA-E419-C5F3DBAEA55D</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F580504-55C9-EC9C-1B8E-EE52D45E61FB" referredColumn="EC332906-A14D-2DF0-FF87-466A63682EDD"/>
+</associations>
+</Column>
+<Column name="Sales_Point_SalesPointKey" id="DCC8D930-5FCE-AA81-ACE7-DEAC504950D9">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>31AA79CD-9AD5-905D-A0B5-9FD2F138C8C6</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3A1462B-FD5B-F934-B780-2E9E5DD984AA" referredColumn="FEECA9D2-965E-7B0B-66A6-2868446C7CC0"/>
+</associations>
+</Column>
+<Column name="Payment_Method_PaymentMethodKey" id="9212AD6F-F910-CC61-2992-468C99A6920D">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>F3395329-8B45-5D4E-AF22-1F3090B99013</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="836BB9C0-65C6-7186-0A6C-DB9EC1272C37" referredColumn="1E80857C-8192-BC34-10CD-DF222208FA08"/>
+</associations>
+</Column>
+<Column name="Order_Status_OrderStatusKey" id="302C91E2-5F79-ED16-A9D7-CEA211562CAA">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>BC99D7DC-2089-A973-21AC-DFC0881970FD</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C077FDCE-46DE-A766-7030-524028D4022D" referredColumn="4A190879-ED7C-5171-37D3-45CF3AD04A78"/>
+</associations>
+</Column>
+<Column name="Country_CountryKey" id="27E112FD-1529-AD96-5446-F07A27AC0611">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>85DDD7F2-196D-978B-BE94-1044519359D4</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CACFFC4-1145-5A27-52CF-B797673FA83B" referredColumn="A63E045A-87D2-CE15-AC66-E29DF4EC1CD5"/>
+</associations>
+</Column>
+<Column name="Order_Detail_Order_Detail_ID" id="412884BF-9519-8794-D74C-59D3AC928262">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="389AA8CA-BE47-1C53-95BA-E70BB708C4EE" referredColumn="A033ECF7-5E68-9C30-2E34-5FE4DA15B761"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8287F3C8-9301-6866-7E64-3F358812FDDC" name="Order_Header_PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>719764E2-5613-5E1E-66B2-7FFE83266184</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51CFDEC3-0E4D-A0BF-8813-75CE55C67EBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D529010-96FF-8B29-E938-D29E743982FE" name="Order_Header_Payment_Method_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>00C30C4A-77B1-4D53-9AFE-81567D089D7D</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9212AD6F-F910-CC61-2992-468C99A6920D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F4FA252-F46E-B91A-22D6-F5D68F1B81B2" name="Order_Header_Delivery_Method_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>CD05C3EF-5E20-CDE8-4B36-F099FA1D6F19</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="703FAB12-CB16-7EC1-D4FA-3EA25A4B0175"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECFD9192-DE55-DF23-8886-EA451019DBD5" name="Order_Header_Order_Status_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>7FFD3731-91BE-181E-AA7D-BCD0654C7857</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="302C91E2-5F79-ED16-A9D7-CEA211562CAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38F6E945-6FD7-D409-0A10-AF436C142F81" name="Order_Header_Customer_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>825C391C-C18E-1734-1D81-0C1F63E0FDA5</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2C83115-C343-0BC5-CA19-8AC0B7B90677"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79515091-EEDD-09D2-63ED-F30138CB6134" name="Order_Header_Sales_Point_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>D93CACB4-A2AA-E69E-57D5-B1D4792B6C1B</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCC8D930-5FCE-AA81-ACE7-DEAC504950D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F67F78E0-3453-68D5-B3F7-C9856BFAAFE3" name="Order_Header_Country_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>9A8C0850-686B-98DD-312D-AAE21A4BAF81</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27E112FD-1529-AD96-5446-F07A27AC0611"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4AD305D-A941-0876-7F31-6DADEECB3D51" name="Order_Header_Order_Detail_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>668E0D59-C8E4-4D88-CCE9-CF5C999E671E</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="412884BF-9519-8794-D74C-59D3AC928262"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

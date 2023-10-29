@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5446C9D5-5639-F8F3-DF84-F766640F6AAC" name="Report">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>546CF247-3153-1E18-2CC0-5E0241C05B3C</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sales_Point_SalesPointKey" id="C0D3AF90-B7CC-DAD9-BD9A-6A4B22EBA4E5">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>7E2A9CA2-114A-4F1A-C704-2F557EE1735D</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="391A201B-8C23-7153-2CA0-4F74DA626661" referredColumn="FEECA9D2-965E-7B0B-66A6-2868446C7CC0"/>
+</associations>
+</Column>
+<Column name="RaportKey" id="9C369A39-5E7C-26BF-D252-15227A221F0C">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>29D7D732-A967-9765-33FB-83EA3BA0248E</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ReportTitle" id="CB43CA3A-E114-34C3-5BBC-074A914E732E">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>4BBF0FCB-7868-01D8-B6A8-85FF63DCA06B</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ReportDate" id="D1B10529-0AC8-1FC3-8AE0-B0F3C1F8B9D1">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>80EABB90-E560-439E-5CFA-CE76B936EECD</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1ACCA79B-3798-8548-530A-9D6AEFCB5888" name="Report_PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>74B2EF37-C002-1CCE-C51F-38CDEC88FE49</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C369A39-5E7C-26BF-D252-15227A221F0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04F008E1-D284-7CB0-ACFA-3D6887A402B6" name="Report_Sales_Point_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>BE0D5AFE-18B4-4BAC-68B0-DADB45BA213D</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0D3AF90-B7CC-DAD9-BD9A-6A4B22EBA4E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

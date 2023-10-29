@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCE20A4D-2928-53EE-458D-1F68CC4C2101" name="Answear">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>A787A436-9C60-F1F6-86AD-FF468F67E100</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sales_Point_SalesPointKey" id="A7468636-73E9-72A5-D4CF-A1F3A8DB18A4">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>8E0A0891-B66F-2793-FA07-7E95EAD5517A</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="258AAC3E-ECED-A5F0-59FA-D37D1EDA9369" referredColumn="FEECA9D2-965E-7B0B-66A6-2868446C7CC0"/>
+</associations>
+</Column>
+<Column name="Question_QuestionKey" id="F99B14AB-FB3E-A5E2-C82E-CD93FFCC1296">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>79EB8A95-341A-81B1-6CE0-90F1D1D08A6A</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C44D54F-D0AF-0F20-CC30-A3F91B679831" referredColumn="B835D440-B2BB-FDC5-1704-997B9BA008D2"/>
+</associations>
+</Column>
+<Column name="AnswearKey" id="57AA63AF-C6A6-1D54-DB74-519D13A2D19E">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>F9C198AD-84BB-2472-716D-32C976EBCD2D</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AnswearBody" id="B743F691-C485-E525-123C-6F2A44611885">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>98824F99-B222-2DD4-4763-873BAD8AF72B</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Employee_EmployeeKey" id="36A0BDA4-8CF0-4B54-F15B-C232F3887B54">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>91ED964F-E551-E691-3C6B-50764FC6B0AF</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E3A64EB-9CB5-5400-8052-89676ABEA0FA" referredColumn="8D60CA87-F613-0E6E-911E-8808E592373D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47783EF6-A1AD-E4AF-1733-9649904496D6" name="Answear_PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>9ED9F7A4-457D-CB3B-3075-35C5888F52B4</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57AA63AF-C6A6-1D54-DB74-519D13A2D19E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D763046-D026-708B-E3A9-E0BFA4814FA8" name="Answear_Question_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>5AA258BD-62F2-73E4-87F5-A0AB8091A427</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F99B14AB-FB3E-A5E2-C82E-CD93FFCC1296"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8865C8BE-A409-976F-D4E6-E65F98C32C9C" name="Answear_Sales_Point_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>CB6E29C1-8D64-3FDE-417A-0EA7D6E503F1</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7468636-73E9-72A5-D4CF-A1F3A8DB18A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="058FA817-B6C1-0FBE-1DE4-60BFB50D232D" name="Answear_Employee_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>65EEE039-D30D-5C9C-4C44-8004F49C5F96</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36A0BDA4-8CF0-4B54-F15B-C232F3887B54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
