@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C304D0B-2654-0C2B-8475-FB30384E878F" name="SaleReport">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>546CF247-3153-1E18-2CC0-5E0241C05B3C</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SaleReportKey" id="C89E809F-8F74-3F9C-3FB2-C2761FB9D43E">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>29D7D732-A967-9765-33FB-83EA3BA0248E</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="10772149-6A88-5F4F-2940-FF492E32FCEE">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>4BBF0FCB-7868-01D8-B6A8-85FF63DCA06B</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="541479EC-C700-BC5A-E614-539827E50F37">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>80EABB90-E560-439E-5CFA-CE76B936EECD</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SalesPoint_SalesPointKey" id="2669E88A-9BCD-C65A-B2AA-39873DD1799B">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>7E2A9CA2-114A-4F1A-C704-2F557EE1735D</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38D6FFC9-DAD4-C8D0-0582-43E2E2442636" referredColumn="A105BB8C-EBBB-5045-3916-498C620F6881"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="085F7257-C911-54CD-797A-F5D940673C3B" name="SaleReport_PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>74B2EF37-C002-1CCE-C51F-38CDEC88FE49</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C89E809F-8F74-3F9C-3FB2-C2761FB9D43E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B00EBDC1-806D-145C-3E17-5A773D914641" name="SaleReport_SalesPoint_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:28 UTC</createdTime>
+<generatorID>BE0D5AFE-18B4-4BAC-68B0-DADB45BA213D</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2669E88A-9BCD-C65A-B2AA-39873DD1799B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

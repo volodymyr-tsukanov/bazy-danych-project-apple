@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39FDB206-AE72-58FA-2588-29B836F58B19" name="Order Status">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39FDB206-AE72-58FA-2588-29B836F58B19" name="OrderStatus">
 <createdBy>student</createdBy>
 <createdTime>2023-10-17 08:01:44 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -24,11 +24,10 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="OrderStatusName" id="16FB46C2-D39A-C782-A9C5-42165879719E">
+<Attribute name="Name" id="16FB46C2-D39A-C782-A9C5-42165879719E">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 17:51:38 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -43,7 +42,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E8033997-C89E-46AD-AB05-C79B1A03220E" name="Order Status PK">
+<identifier id="E8033997-C89E-46AD-AB05-C79B1A03220E" name="OrderStatus PK">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 17:51:37 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -51,6 +50,7 @@
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>499D6085-C3BA-8D54-66C0-E4988457988B</newElementsIDs>
 <usedAttributes>
 <attributeRef>499D6085-C3BA-8D54-66C0-E4988457988B</attributeRef>
 </usedAttributes>

@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF4A1C13-4DC4-9050-8A7B-CBBDA4C36BB2" name="OrderDetail">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>CF3EFB76-9654-527C-C4E7-4A3362DFD298</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrderDetailKey" id="0EDA34EE-ABE3-8DED-7CC0-5959C524BE47">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>D1055F6C-9CD6-D75D-73A6-2F8B912CB821</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantity" id="10A5D155-9F9B-6F87-F2C6-95107D694830">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>DAD8CA19-E881-38DA-A6AC-471282199C3A</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CatalogPrice" id="2BB8A3ED-36F2-3B6B-D349-223DFA7DFEDF">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>89AB82DE-D5CA-A496-395E-FE63771EF9FE</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DiscountAmount" id="F3B64E2D-3DA4-B283-BE8A-89FFC366BCEB">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>119B58B9-4980-8215-B5CA-AF937DBDFC34</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DiscountPercentage" id="273D4854-CB9B-4A1D-ABDA-6166EDD6F736">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>6833FB6C-E472-A491-453C-5733B99006DD</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TransactionPrice" id="002BE2C9-3A7F-D8DA-B413-93888958C84E">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>87F1DC0E-9B74-7DA9-8C60-3159FEFD84DF</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_ProductKey" id="C98F4062-850B-A2A6-FE7D-16272BDF7821">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>8696DB06-DFAA-BCB8-0043-F4B255A1FE05</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F986D5A3-74A1-0F5C-D682-D2D61DB47634" referredColumn="474811ED-C8C1-7EDA-467A-4E3193BFC832"/>
+</associations>
+</Column>
+<Column name="Refund_RefundKey" id="8733822D-8764-1D39-C136-1C7EBE4D94B8">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>5DAAB3D7-4EFC-EC1A-66C8-B5DE62F34298</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4637AE0A-2D50-D784-DBDA-72BFAB95A24A" referredColumn="6FCFF23F-EAE5-D62C-728A-FEB0577C304B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D59DCAE0-BE45-BA6B-1F22-2746C532826A" name="OrderDetail_PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>CB73158F-8109-FCCF-29DA-80BDDD08E1B0</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EDA34EE-ABE3-8DED-7CC0-5959C524BE47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D314D5E9-1050-13DA-24AA-1C438B7D4ACA" name="OrderDetail__IDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:28 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B3542F0F-1506-B348-21C4-664D1A0FF706</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8733822D-8764-1D39-C136-1C7EBE4D94B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3098DC0A-991C-3782-11BF-FC15366FE204" name="OrderDetail_Refund_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:28 UTC</createdTime>
+<generatorID>B3542F0F-1506-B348-21C4-664D1A0FF706</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8733822D-8764-1D39-C136-1C7EBE4D94B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03FD8A39-6C81-9A87-7F38-6221CAED467C" name="OrderDetail_Product_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:28 UTC</createdTime>
+<generatorID>0FB7DCEF-2710-0501-54C8-093B9CED694F</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C98F4062-850B-A2A6-FE7D-16272BDF7821"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B4D6CD9C-5860-EA8B-31B2-D726BC8F27A7" containerWithKeyObject="0B900A4F-16DE-6E62-4A4A-5D9D41A06116" localFKIndex="68DE3511-A9FA-6E8C-11AD-BD97BA935BC5" name="SalesPoint_Administrator_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:28 UTC</createdTime>
+<generatorID>C53587E4-45D0-9B49-6DE3-0339BA93D7F7</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<referredTableLongName>Administrator</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>33C7E47A-E92C-4DA8-48DD-20983FA90CFD</referredTableID>
+<keyObject>EE9CC718-5C95-2F6D-A4FE-CD07374AAAF2</keyObject>
+<referredKeyID>EE9CC718-5C95-2F6D-A4FE-CD07374AAAF2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>AdministratorKey</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

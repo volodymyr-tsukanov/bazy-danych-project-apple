@@ -24,11 +24,10 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CountryName" id="15B21990-D6DC-B3D7-277E-9A4676A362EA">
+<Attribute name="Name" id="15B21990-D6DC-B3D7-277E-9A4676A362EA">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 17:40:47 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -42,7 +41,7 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CountryCode" id="6430B5AE-5205-BE46-C8B5-3796C0E5E368">
+<Attribute name="Code" id="6430B5AE-5205-BE46-C8B5-3796C0E5E368">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 17:42:57 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -55,18 +54,18 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SalesTerritoryKey" id="37BCB2D3-E8B1-8BCE-D0F7-BF99C2FD72A3">
-<createdBy>karol</createdBy>
-<createdTime>2023-10-23 21:29:27 UTC</createdTime>
+<Attribute name="SalesTerritoryKey" id="8FAD635F-6FBC-B5C2-532F-D29E113AB094">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:20:04 UTC</createdTime>
 <generatorID>EE1A9B8E-2B1A-C75D-BDFD-BAA74C8F034F</generatorID>
 <ownerDesignName>bdp</ownerDesignName>
 <engineerTo>
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
 <referedAttribute>220FCC3D-BF66-41F9-4F63-754616E1979C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
+<logicalDatatype>LOGDT018</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

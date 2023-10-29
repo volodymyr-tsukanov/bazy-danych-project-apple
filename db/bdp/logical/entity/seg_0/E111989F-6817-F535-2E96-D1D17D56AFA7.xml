@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E111989F-6817-F535-2E96-D1D17D56AFA7" name="Product Category">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E111989F-6817-F535-2E96-D1D17D56AFA7" name="ProductCategory">
 <createdBy>student</createdBy>
 <createdTime>2023-10-17 08:08:35 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -24,11 +24,10 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ProductCategoryName" id="B933D3B2-DAD1-3700-D466-7CBE45266A5E">
+<Attribute name="Name" id="B933D3B2-DAD1-3700-D466-7CBE45266A5E">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 17:58:55 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -43,7 +42,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="275EDA01-661F-C976-52BA-2F962DB0BEFF" name="Product Category PK">
+<identifier id="275EDA01-661F-C976-52BA-2F962DB0BEFF" name="ProductCategory PK">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 17:58:54 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -51,6 +50,7 @@
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>9938A2CE-156B-0E11-D05F-B3737893FA79</newElementsIDs>
 <usedAttributes>
 <attributeRef>9938A2CE-156B-0E11-D05F-B3737893FA79</attributeRef>
 </usedAttributes>

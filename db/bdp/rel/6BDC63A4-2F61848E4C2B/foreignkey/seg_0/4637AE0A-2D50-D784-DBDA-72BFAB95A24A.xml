@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4637AE0A-2D50-D784-DBDA-72BFAB95A24A" containerWithKeyObject="DF4A1C13-4DC4-9050-8A7B-CBBDA4C36BB2" localFKIndex="3098DC0A-991C-3782-11BF-FC15366FE204" name="OrderDetail_Refund_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:28 UTC</createdTime>
+<generatorID>B3542F0F-1506-B348-21C4-664D1A0FF706</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<referredTableLongName>Refund</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C1E9C0CD-59A0-C298-8723-CFEF502E025F</referredTableID>
+<keyObject>997B7B8C-8E4A-F1D5-5890-9B0206C532FC</keyObject>
+<referredKeyID>997B7B8C-8E4A-F1D5-5890-9B0206C532FC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RefundKey</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
