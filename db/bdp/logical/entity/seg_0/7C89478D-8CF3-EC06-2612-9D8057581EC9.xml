@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C89478D-8CF3-EC06-2612-9D8057581EC9" name="Product Subcategory">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C89478D-8CF3-EC06-2612-9D8057581EC9" name="ProductSubcategory">
 <createdBy>student</createdBy>
 <createdTime>2023-10-17 08:08:06 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -24,11 +24,10 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ProductSubcategoryName" id="3CB44043-A416-DBE0-BFC6-B4CAA10C4005">
+<Attribute name="Name" id="3CB44043-A416-DBE0-BFC6-B4CAA10C4005">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 17:57:47 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -52,13 +51,13 @@
 <referedAttribute>9938A2CE-156B-0E11-D05F-B3737893FA79</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT018</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="BD3482B9-7710-43FB-78AA-846940428D92" name="Product Subcategory PK">
+<identifier id="BD3482B9-7710-43FB-78AA-846940428D92" name="ProductSubcategory PK">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 17:57:45 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -66,6 +65,7 @@
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>07014949-3281-4ED2-F60B-EDE23EE7ECBF</newElementsIDs>
 <usedAttributes>
 <attributeRef>07014949-3281-4ED2-F60B-EDE23EE7ECBF</attributeRef>
 </usedAttributes>

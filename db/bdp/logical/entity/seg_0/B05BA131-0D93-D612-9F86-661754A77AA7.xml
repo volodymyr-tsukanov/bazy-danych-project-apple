@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B05BA131-0D93-D612-9F86-661754A77AA7" name="Sales Point">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B05BA131-0D93-D612-9F86-661754A77AA7" name="SalesPoint">
 <createdBy>student</createdBy>
 <createdTime>2023-10-17 08:17:56 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -15,36 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="DeliveryMethodKey" id="6D672B2F-CF0D-CD31-DD1C-6EEF4E532D18">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-19 17:38:26 UTC</createdTime>
-<generatorID>B69F7CA2-F469-CAF6-9C9C-9576EFF6320F</generatorID>
-<ownerDesignName>bdp</ownerDesignName>
-<engineerTo>
-<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
-</engineerTo>
-<referedAttribute>7274A263-0597-A32D-5A24-7925F8317267</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CityKey" id="39A8165E-3204-DA49-7033-463ED8CB6207">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-19 17:45:09 UTC</createdTime>
-<generatorID>896CEF02-DC84-754C-07CE-D16D76FA0FC1</generatorID>
-<ownerDesignName>bdp</ownerDesignName>
-<engineerTo>
-<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
-</engineerTo>
-<referedAttribute>2C93C47E-054F-EF39-768A-6D3F05E970ED</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,6,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="SalesPointKey" id="0158F247-ADE4-DD65-81C5-BC0797607628">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 17:47:38 UTC</createdTime>
@@ -52,23 +22,10 @@
 <engineerTo>
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="AdministratorKey" id="2297F930-C3C5-DC4F-F368-0504B7520DE5">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-19 17:52:26 UTC</createdTime>
-<generatorID>C53587E4-45D0-9B49-6DE3-0339BA93D7F7</generatorID>
-<ownerDesignName>bdp</ownerDesignName>
-<engineerTo>
-<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
-</engineerTo>
-<referedAttribute>6A271DCA-278B-794B-6384-E7B8A767218E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Address" id="04B3EAD1-B7CA-E2EE-78A7-E49A09F7BAE8">
 <createdBy>VladiMr</createdBy>
@@ -108,9 +65,51 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CityKey" id="39A8165E-3204-DA49-7033-463ED8CB6207">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:45:09 UTC</createdTime>
+<generatorID>896CEF02-DC84-754C-07CE-D16D76FA0FC1</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<referedAttribute>2C93C47E-054F-EF39-768A-6D3F05E970ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AdministratorKey" id="2297F930-C3C5-DC4F-F368-0504B7520DE5">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:52:26 UTC</createdTime>
+<generatorID>C53587E4-45D0-9B49-6DE3-0339BA93D7F7</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<referedAttribute>6A271DCA-278B-794B-6384-E7B8A767218E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DeliveryMethodKey" id="6D672B2F-CF0D-CD31-DD1C-6EEF4E532D18">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:38:26 UTC</createdTime>
+<generatorID>B69F7CA2-F469-CAF6-9C9C-9576EFF6320F</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<referedAttribute>7274A263-0597-A32D-5A24-7925F8317267</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C9BFD47C-BAB2-930F-922E-CADA656DD9F0" name="Sales Point PK">
+<identifier id="C9BFD47C-BAB2-930F-922E-CADA656DD9F0" name="SalesPoint PK">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 17:47:46 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -118,6 +117,7 @@
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>0158F247-ADE4-DD65-81C5-BC0797607628</newElementsIDs>
 <usedAttributes>
 <attributeRef>0158F247-ADE4-DD65-81C5-BC0797607628</attributeRef>
 </usedAttributes>

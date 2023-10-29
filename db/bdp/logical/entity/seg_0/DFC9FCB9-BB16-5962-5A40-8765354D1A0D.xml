@@ -15,18 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SalesPointKey" id="36D9C970-08C2-68F9-5297-4C81D2E1789C">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-19 17:47:47 UTC</createdTime>
-<generatorID>9E393839-8679-7481-6C88-F31E19E4FFDA</generatorID>
-<ownerDesignName>bdp</ownerDesignName>
-<engineerTo>
-<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
-</engineerTo>
-<referedAttribute>0158F247-ADE4-DD65-81C5-BC0797607628</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ProductKey" id="07F6E527-29C7-B955-58F2-C7E9E0961FA9">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 17:54:28 UTC</createdTime>
@@ -36,11 +24,10 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ProductCode" id="158BFC5A-F1B5-899A-F9E2-C4E5A6C13EB3">
+<Attribute name="Code" id="158BFC5A-F1B5-899A-F9E2-C4E5A6C13EB3">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 17:54:36 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -53,7 +40,7 @@
 <dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ProductName" id="9861F678-1A35-CA36-A064-275A8E0C0C7D">
+<Attribute name="Name" id="9861F678-1A35-CA36-A064-275A8E0C0C7D">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 17:54:49 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -66,6 +53,20 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="SalesPointKey" id="36D9C970-08C2-68F9-5297-4C81D2E1789C">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:47:47 UTC</createdTime>
+<generatorID>9E393839-8679-7481-6C88-F31E19E4FFDA</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<referedAttribute>0158F247-ADE4-DD65-81C5-BC0797607628</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="ProductSubcategoryKey" id="D50DC6BA-6D36-AC0E-F624-FB13C26E6944">
 <createdBy>student</createdBy>
 <createdTime>2023-10-24 08:13:58 UTC</createdTime>
@@ -77,9 +78,9 @@
 <referedAttribute>07014949-3281-4ED2-F60B-EDE23EE7ECBF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT018</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

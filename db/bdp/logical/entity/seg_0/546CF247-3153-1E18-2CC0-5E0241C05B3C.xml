@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="546CF247-3153-1E18-2CC0-5E0241C05B3C" name="Report">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="546CF247-3153-1E18-2CC0-5E0241C05B3C" name="SaleReport">
 <createdBy>student</createdBy>
 <createdTime>2023-10-17 08:37:59 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -15,29 +15,19 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SalesPointKey" id="7E2A9CA2-114A-4F1A-C704-2F557EE1735D">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-19 17:47:47 UTC</createdTime>
-<generatorID>BE0D5AFE-18B4-4BAC-68B0-DADB45BA213D</generatorID>
-<ownerDesignName>bdp</ownerDesignName>
-<engineerTo>
-<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
-</engineerTo>
-<referedAttribute>0158F247-ADE4-DD65-81C5-BC0797607628</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="RaportKey" id="29D7D732-A967-9765-33FB-83EA3BA0248E">
+<Attribute name="SaleReportKey" id="29D7D732-A967-9765-33FB-83EA3BA0248E">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 18:00:45 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
 <engineerTo>
 <item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ReportTitle" id="4BBF0FCB-7868-01D8-B6A8-85FF63DCA06B">
+<Attribute name="Title" id="4BBF0FCB-7868-01D8-B6A8-85FF63DCA06B">
 <createdBy>student</createdBy>
 <createdTime>2023-10-24 07:58:32 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -50,7 +40,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ReportDate" id="80EABB90-E560-439E-5CFA-CE76B936EECD">
+<Attribute name="Date" id="80EABB90-E560-439E-5CFA-CE76B936EECD">
 <createdBy>student</createdBy>
 <createdTime>2023-10-24 07:58:59 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -60,6 +50,20 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SalesPointKey" id="7E2A9CA2-114A-4F1A-C704-2F557EE1735D">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:47:47 UTC</createdTime>
+<generatorID>BE0D5AFE-18B4-4BAC-68B0-DADB45BA213D</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<referedAttribute>0158F247-ADE4-DD65-81C5-BC0797607628</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

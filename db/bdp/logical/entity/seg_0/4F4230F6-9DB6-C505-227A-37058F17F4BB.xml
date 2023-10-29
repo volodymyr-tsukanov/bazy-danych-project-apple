@@ -15,21 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="CountryKey" id="A64ECA43-530D-A7E9-151F-7D061D9FC1C0">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-19 17:41:17 UTC</createdTime>
-<generatorID>781CFAF6-5A3D-5C06-FFE8-C0E67D2BA349</generatorID>
-<ownerDesignName>bdp</ownerDesignName>
-<engineerTo>
-<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
-</engineerTo>
-<referedAttribute>DC51657F-8DDF-FF24-E933-D5798A7A71FD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="CityKey" id="2C93C47E-054F-EF39-768A-6D3F05E970ED">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 17:44:50 UTC</createdTime>
@@ -39,11 +24,10 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CityName" id="0CF4B6EC-1282-8F85-7831-E841EBD0CD8B">
+<Attribute name="Name" id="0CF4B6EC-1282-8F85-7831-E841EBD0CD8B">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-19 17:45:13 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -68,6 +52,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CountryKey" id="A64ECA43-530D-A7E9-151F-7D061D9FC1C0">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:41:17 UTC</createdTime>
+<generatorID>781CFAF6-5A3D-5C06-FFE8-C0E67D2BA349</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<referedAttribute>DC51657F-8DDF-FF24-E933-D5798A7A71FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

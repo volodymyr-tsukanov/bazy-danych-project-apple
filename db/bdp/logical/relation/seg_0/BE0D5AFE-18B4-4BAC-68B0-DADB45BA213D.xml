@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_36" directorySegmentName="seg_0" id="BE0D5AFE-18B4-4BAC-68B0-DADB45BA213D">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SalesPoint_Reports" directorySegmentName="seg_0" id="BE0D5AFE-18B4-4BAC-68B0-DADB45BA213D">
 <createdBy>student</createdBy>
 <createdTime>2023-10-17 08:38:29 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>

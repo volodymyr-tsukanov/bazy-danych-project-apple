@@ -24,11 +24,10 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="AdministratorName" id="FBC69EE8-A23F-4700-1F50-941764D3F0D5">
+<Attribute name="Name" id="FBC69EE8-A23F-4700-1F50-941764D3F0D5">
 <createdBy>karol</createdBy>
 <createdTime>2023-10-23 21:45:16 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
@@ -66,6 +65,30 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>6A271DCA-278B-794B-6384-E7B8A767218E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B8246539-FFA6-B3C2-72C0-ECCBFB210AEB" name="Name">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 18:53:33 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<newElementsIDs>FBC69EE8-A23F-4700-1F50-941764D3F0D5</newElementsIDs>
+<usedAttributes>
+<attributeRef>FBC69EE8-A23F-4700-1F50-941764D3F0D5</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B31D7739-320F-B0F1-017B-F420D4077B5F" name="PhoneNumber">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 18:53:54 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<newElementsIDs>1395EC71-0F5C-E0BF-DD8B-88FBD0FA0F40</newElementsIDs>
+<usedAttributes>
+<attributeRef>1395EC71-0F5C-E0BF-DD8B-88FBD0FA0F40</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
