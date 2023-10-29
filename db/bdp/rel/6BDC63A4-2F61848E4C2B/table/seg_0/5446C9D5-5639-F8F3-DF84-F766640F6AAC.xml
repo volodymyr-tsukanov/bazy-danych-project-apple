@@ -8,25 +8,14 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Sales_Point_SalesPointKey" id="C0D3AF90-B7CC-DAD9-BD9A-6A4B22EBA4E5">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-29 16:12:47 UTC</createdTime>
-<generatorID>7E2A9CA2-114A-4F1A-C704-2F557EE1735D</generatorID>
-<ownerDesignName>bdp</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="391A201B-8C23-7153-2CA0-4F74DA626661" referredColumn="FEECA9D2-965E-7B0B-66A6-2868446C7CC0"/>
-</associations>
-</Column>
 <Column name="RaportKey" id="9C369A39-5E7C-26BF-D252-15227A221F0C">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 16:12:47 UTC</createdTime>
 <generatorID>29D7D732-A967-9765-33FB-83EA3BA0248E</generatorID>
 <ownerDesignName>bdp</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -52,6 +41,21 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sales_Point_SalesPointKey" id="C0D3AF90-B7CC-DAD9-BD9A-6A4B22EBA4E5">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>7E2A9CA2-114A-4F1A-C704-2F557EE1735D</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="391A201B-8C23-7153-2CA0-4F74DA626661" referredColumn="FEECA9D2-965E-7B0B-66A6-2868446C7CC0"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

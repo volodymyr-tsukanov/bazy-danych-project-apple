@@ -8,22 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="City_CityKey" id="F01EE6D0-EA32-0E95-5E04-7397841DF547">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-29 16:12:47 UTC</createdTime>
-<generatorID>1C179838-9FEF-8AB2-387C-055EBF36FAEB</generatorID>
-<ownerDesignName>bdp</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="93552A08-53D8-AD28-0271-62D9DE9BEC41" referredColumn="E861D049-B1B7-BF7B-DAC1-BC6BC21F2341"/>
-</associations>
-</Column>
 <Column name="CustomerKey" id="EC332906-A14D-2DF0-FF87-466A63682EDD">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 16:12:47 UTC</createdTime>
@@ -32,8 +16,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="FirstName" id="50BA00E6-A979-4203-B79A-A42E755EBBF9">
@@ -72,22 +55,6 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Administrator_AdministratorKey" id="701FC73F-CF50-6E0E-B3A9-83FD511CF43A">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-29 16:12:47 UTC</createdTime>
-<generatorID>2DCC4DF0-0686-79DB-78D7-903775CEB55C</generatorID>
-<ownerDesignName>bdp</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7FF216B6-850B-D87A-C44A-A9C938D2D8BB" referredColumn="3FE6004C-F5D5-53A8-9890-F3EB63AE104F"/>
-</associations>
-</Column>
 <Column name="PhoneNumber" id="75E76B95-3666-2091-6D93-48DD2F6732B4">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 16:12:47 UTC</createdTime>
@@ -123,6 +90,37 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City_CityKey" id="F01EE6D0-EA32-0E95-5E04-7397841DF547">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>1C179838-9FEF-8AB2-387C-055EBF36FAEB</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93552A08-53D8-AD28-0271-62D9DE9BEC41" referredColumn="E861D049-B1B7-BF7B-DAC1-BC6BC21F2341"/>
+</associations>
+</Column>
+<Column name="Administrator_AdministratorKey" id="701FC73F-CF50-6E0E-B3A9-83FD511CF43A">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>2DCC4DF0-0686-79DB-78D7-903775CEB55C</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FF216B6-850B-D87A-C44A-A9C938D2D8BB" referredColumn="3FE6004C-F5D5-53A8-9890-F3EB63AE104F"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

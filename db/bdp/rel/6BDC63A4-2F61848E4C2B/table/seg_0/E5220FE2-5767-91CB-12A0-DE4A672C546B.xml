@@ -8,38 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Customer_CustomerKey" id="CE36E8FA-0BFA-B1BE-9D07-131FFE0F1735">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-29 16:12:47 UTC</createdTime>
-<generatorID>CE221A1F-7C09-FDD6-CE56-CA6C42A51787</generatorID>
-<ownerDesignName>bdp</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="6DCEA892-1BAD-7C13-814B-BBD8F5E68FD0" referredColumn="EC332906-A14D-2DF0-FF87-466A63682EDD"/>
-</associations>
-</Column>
-<Column name="Product_ProductKey" id="D872D117-561D-02FD-058F-4E0C8943914A">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-29 16:12:47 UTC</createdTime>
-<generatorID>702535E3-E611-D72D-2E2E-9A246977E953</generatorID>
-<ownerDesignName>bdp</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F9D675F0-C1AB-F4FC-978B-09055C0E9285" referredColumn="ABB74DDB-6AC6-5544-341A-FBE6C4E2883B"/>
-</associations>
-</Column>
 <Column name="QuestionKey" id="B835D440-B2BB-FDC5-1704-997B9BA008D2">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 16:12:47 UTC</createdTime>
@@ -75,6 +43,37 @@
 <dataTypeSize>250 CHAR</dataTypeSize>
 <ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_CustomerKey" id="CE36E8FA-0BFA-B1BE-9D07-131FFE0F1735">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>CE221A1F-7C09-FDD6-CE56-CA6C42A51787</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DCEA892-1BAD-7C13-814B-BBD8F5E68FD0" referredColumn="EC332906-A14D-2DF0-FF87-466A63682EDD"/>
+</associations>
+</Column>
+<Column name="Product_ProductKey" id="D872D117-561D-02FD-058F-4E0C8943914A">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>702535E3-E611-D72D-2E2E-9A246977E953</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9D675F0-C1AB-F4FC-978B-09055C0E9285" referredColumn="ABB74DDB-6AC6-5544-341A-FBE6C4E2883B"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

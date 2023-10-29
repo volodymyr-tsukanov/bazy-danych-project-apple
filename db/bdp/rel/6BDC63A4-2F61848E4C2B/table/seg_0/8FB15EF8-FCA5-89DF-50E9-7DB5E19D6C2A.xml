@@ -8,22 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Country_CountryKey" id="9A96A633-1376-6BC7-744A-60DCD58AE493">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-29 16:12:47 UTC</createdTime>
-<generatorID>A64ECA43-530D-A7E9-151F-7D061D9FC1C0</generatorID>
-<ownerDesignName>bdp</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="8A0ACEA9-0CB6-BE14-D175-34B01F0FD14D" referredColumn="A63E045A-87D2-CE15-AC66-E29DF4EC1CD5"/>
-</associations>
-</Column>
 <Column name="CityKey" id="E861D049-B1B7-BF7B-DAC1-BC6BC21F2341">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 16:12:47 UTC</createdTime>
@@ -32,8 +16,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="CityName" id="4A4A1F71-1E36-486E-8AFD-2DBF7422800D">
@@ -56,9 +39,24 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Country_CountryKey" id="9A96A633-1376-6BC7-744A-60DCD58AE493">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>A64ECA43-530D-A7E9-151F-7D061D9FC1C0</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A0ACEA9-0CB6-BE14-D175-34B01F0FD14D" referredColumn="A63E045A-87D2-CE15-AC66-E29DF4EC1CD5"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

@@ -8,6 +8,17 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SalesPointKey" id="FEECA9D2-965E-7B0B-66A6-2868446C7CC0">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>0158F247-ADE4-DD65-81C5-BC0797607628</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Delivery_Method_DeliveryMethodKey" id="51336CAB-1F06-EFE0-306A-DB76A6D92710">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 16:12:47 UTC</createdTime>
@@ -32,22 +43,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="CCB52941-73BE-A99D-72E7-3B0BB926AAF8" referredColumn="E861D049-B1B7-BF7B-DAC1-BC6BC21F2341"/>
 </associations>
-</Column>
-<Column name="SalesPointKey" id="FEECA9D2-965E-7B0B-66A6-2868446C7CC0">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-29 16:12:47 UTC</createdTime>
-<generatorID>0158F247-ADE4-DD65-81C5-BC0797607628</generatorID>
-<ownerDesignName>bdp</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Administrator_AdministratorKey" id="32154549-A519-B173-C494-9489D0F48F7F">
 <createdBy>VladiMr</createdBy>
@@ -57,7 +58,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>

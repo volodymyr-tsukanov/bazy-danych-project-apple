@@ -8,18 +8,17 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Sales_Point_SalesPointKey" id="A7468636-73E9-72A5-D4CF-A1F3A8DB18A4">
+<Column name="AnswearKey" id="57AA63AF-C6A6-1D54-DB74-519D13A2D19E">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 16:12:47 UTC</createdTime>
-<generatorID>8E0A0891-B66F-2793-FA07-7E95EAD5517A</generatorID>
+<generatorID>F9C198AD-84BB-2472-716D-32C976EBCD2D</generatorID>
 <ownerDesignName>bdp</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="258AAC3E-ECED-A5F0-59FA-D37D1EDA9369" referredColumn="FEECA9D2-965E-7B0B-66A6-2868446C7CC0"/>
-</associations>
 </Column>
 <Column name="Question_QuestionKey" id="F99B14AB-FB3E-A5E2-C82E-CD93FFCC1296">
 <createdBy>VladiMr</createdBy>
@@ -37,18 +36,6 @@
 <colAssociation fkAssociation="2C44D54F-D0AF-0F20-CC30-A3F91B679831" referredColumn="B835D440-B2BB-FDC5-1704-997B9BA008D2"/>
 </associations>
 </Column>
-<Column name="AnswearKey" id="57AA63AF-C6A6-1D54-DB74-519D13A2D19E">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-29 16:12:47 UTC</createdTime>
-<generatorID>F9C198AD-84BB-2472-716D-32C976EBCD2D</generatorID>
-<ownerDesignName>bdp</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="AnswearBody" id="B743F691-C485-E525-123C-6F2A44611885">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 16:12:47 UTC</createdTime>
@@ -61,12 +48,29 @@
 <ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Sales_Point_SalesPointKey" id="A7468636-73E9-72A5-D4CF-A1F3A8DB18A4">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>8E0A0891-B66F-2793-FA07-7E95EAD5517A</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="258AAC3E-ECED-A5F0-59FA-D37D1EDA9369" referredColumn="FEECA9D2-965E-7B0B-66A6-2868446C7CC0"/>
+</associations>
+</Column>
 <Column name="Employee_EmployeeKey" id="36A0BDA4-8CF0-4B54-F15B-C232F3887B54">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 16:12:47 UTC</createdTime>
 <generatorID>91ED964F-E551-E691-3C6B-50764FC6B0AF</generatorID>
 <ownerDesignName>bdp</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>

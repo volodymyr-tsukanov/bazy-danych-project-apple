@@ -13,7 +13,9 @@
 <createdTime>2023-10-29 16:12:47 UTC</createdTime>
 <generatorID>E62D7F1F-E48B-E83F-7DF7-93729E1E481B</generatorID>
 <ownerDesignName>bdp</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

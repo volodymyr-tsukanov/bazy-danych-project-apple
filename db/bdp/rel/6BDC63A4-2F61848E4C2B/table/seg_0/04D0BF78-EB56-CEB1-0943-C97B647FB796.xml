@@ -8,16 +8,14 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="OrderKey" id="51CFDEC3-0E4D-A0BF-8813-75CE55C67EBF">
+<Column name="OrderHeaderKey" id="314DB84B-6625-1588-F342-45572E087E3F">
 <createdBy>VladiMr</createdBy>
-<createdTime>2023-10-29 16:12:47 UTC</createdTime>
-<generatorID>C24D81FE-E88F-B678-E4BC-49C23DA88154</generatorID>
+<createdTime>2023-10-29 16:36:38 UTC</createdTime>
 <ownerDesignName>bdp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="OrderDate" id="6C5ADBD5-06E8-6F12-C183-24E698A354D4">
@@ -79,7 +77,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -116,6 +113,32 @@
 <colAssociation fkAssociation="836BB9C0-65C6-7186-0A6C-DB9EC1272C37" referredColumn="1E80857C-8192-BC34-10CD-DF222208FA08"/>
 </associations>
 </Column>
+<Column name="OrderKey" id="51CFDEC3-0E4D-A0BF-8813-75CE55C67EBF">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>C24D81FE-E88F-B678-E4BC-49C23DA88154</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_Detail_Order_Detail_ID" id="412884BF-9519-8794-D74C-59D3AC928262">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="389AA8CA-BE47-1C53-95BA-E70BB708C4EE" referredColumn="A033ECF7-5E68-9C30-2E34-5FE4DA15B761"/>
+</associations>
+</Column>
 <Column name="Order_Status_OrderStatusKey" id="302C91E2-5F79-ED16-A9D7-CEA211562CAA">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 16:12:47 UTC</createdTime>
@@ -148,20 +171,6 @@
 <colAssociation fkAssociation="8CACFFC4-1145-5A27-52CF-B797673FA83B" referredColumn="A63E045A-87D2-CE15-AC66-E29DF4EC1CD5"/>
 </associations>
 </Column>
-<Column name="Order_Detail_Order_Detail_ID" id="412884BF-9519-8794-D74C-59D3AC928262">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-29 16:12:47 UTC</createdTime>
-<ownerDesignName>bdp</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="389AA8CA-BE47-1C53-95BA-E70BB708C4EE" referredColumn="A033ECF7-5E68-9C30-2E34-5FE4DA15B761"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8287F3C8-9301-6866-7E64-3F358812FDDC" name="Order_Header_PK">
@@ -174,6 +183,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="51CFDEC3-0E4D-A0BF-8813-75CE55C67EBF"/>
+<colUsage columnID="314DB84B-6625-1588-F342-45572E087E3F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="5D529010-96FF-8B29-E938-D29E743982FE" name="Order_Header_Payment_Method_FK">

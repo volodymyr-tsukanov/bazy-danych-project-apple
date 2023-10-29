@@ -8,19 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Sales_Point_SalesPointKey" id="0FA31956-8DB6-6F7E-1D35-CAD93B75006D">
-<createdBy>VladiMr</createdBy>
-<createdTime>2023-10-29 16:12:47 UTC</createdTime>
-<generatorID>36D9C970-08C2-68F9-5297-4C81D2E1789C</generatorID>
-<ownerDesignName>bdp</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="88517D44-4ECC-8D52-EF52-F314461659B1" referredColumn="FEECA9D2-965E-7B0B-66A6-2868446C7CC0"/>
-</associations>
-</Column>
 <Column name="ProductKey" id="ABB74DDB-6AC6-5544-341A-FBE6C4E2883B">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 16:12:47 UTC</createdTime>
@@ -56,6 +43,19 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sales_Point_SalesPointKey" id="0FA31956-8DB6-6F7E-1D35-CAD93B75006D">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 16:12:47 UTC</createdTime>
+<generatorID>36D9C970-08C2-68F9-5297-4C81D2E1789C</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88517D44-4ECC-8D52-EF52-F314461659B1" referredColumn="FEECA9D2-965E-7B0B-66A6-2868446C7CC0"/>
+</associations>
 </Column>
 <Column name="Product_Subcategory_ProductSubcategoryKey" id="DCFF0A88-D8AA-BF69-665B-7CA1C2740277">
 <createdBy>VladiMr</createdBy>
