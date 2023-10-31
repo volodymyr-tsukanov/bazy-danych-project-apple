@@ -13,6 +13,7 @@ ALTER TABLE administrator ADD CONSTRAINT administrator_phonenumber_un UNIQUE ( p
 CREATE TABLE answear (
     answearkey    INTEGER NOT NULL,
     body          VARCHAR2(250 CHAR) NOT NULL,
+    "Date"        DATE NOT NULL,
     questionkey   INTEGER NOT NULL,
     salespointkey INTEGER NOT NULL,
     employeekey   INTEGER NOT NULL
@@ -173,6 +174,7 @@ CREATE TABLE question (
     questionkey INTEGER NOT NULL,
     title       VARCHAR2(20 CHAR) NOT NULL,
     body        VARCHAR2(250 CHAR) NOT NULL,
+    "Date"      DATE NOT NULL,
     customerkey INTEGER NOT NULL,
     productkey  INTEGER NOT NULL
 );
@@ -323,3 +325,36 @@ ALTER TABLE salespoint
 ALTER TABLE salespoint
     ADD CONSTRAINT salespoint_deliverymethod_fk FOREIGN KEY ( deliverymethodkey )
         REFERENCES deliverymethod ( deliverymethodkey );
+
+CREATE SEQUENCE city_citykey_seq START WITH 1 NOCACHE ORDER;
+
+CREATE OR REPLACE TRIGGER city_citykey_trg BEFORE
+    INSERT ON city
+    FOR EACH ROW
+    WHEN ( new.citykey IS NULL )
+BEGIN
+    :new.citykey := city_citykey_seq.nextval;
+END;
+/
+
+CREATE SEQUENCE country_countrykey_seq START WITH 1 NOCACHE ORDER;
+
+CREATE OR REPLACE TRIGGER country_countrykey_trg BEFORE
+    INSERT ON country
+    FOR EACH ROW
+    WHEN ( new.countrykey IS NULL )
+BEGIN
+    :new.countrykey := country_countrykey_seq.nextval;
+END;
+/
+
+CREATE SEQUENCE salesterritory_salesterritoryk START WITH 1 NOCACHE ORDER;
+
+CREATE OR REPLACE TRIGGER salesterritory_salesterritoryk BEFORE
+    INSERT ON salesterritory
+    FOR EACH ROW
+    WHEN ( new.salesterritorykey IS NULL )
+BEGIN
+    :new.salesterritorykey := salesterritory_salesterritoryk.nextval;
+END;
+/
