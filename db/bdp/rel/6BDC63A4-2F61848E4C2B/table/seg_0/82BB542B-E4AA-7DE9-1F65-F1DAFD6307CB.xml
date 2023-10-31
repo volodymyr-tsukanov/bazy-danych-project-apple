@@ -71,7 +71,7 @@
 <colUsage columnID="E9BD6898-66FF-DFF9-265E-C1300722D548"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2D4D852C-7B92-28EB-E347-56ECE2CCC69E" name="ProductSubcategory_ProductCategory_FK">
+<ind_PK_UK id="2D4D852C-7B92-28EB-E347-56ECE2CCC69E" name="ProductSubcat_ProductCat_FK">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:28 UTC</createdTime>
 <generatorID>10F75AB2-4A08-10C8-91CE-E9DBC79BA2FE</generatorID>
