@@ -1,0 +1,325 @@
+CREATE TABLE administrator (
+    administratorkey SMALLINT NOT NULL,
+    name             VARCHAR2(50 CHAR) NOT NULL,
+    phonenumber      VARCHAR2(11 CHAR) NOT NULL
+);
+
+ALTER TABLE administrator ADD CONSTRAINT administrator_pk PRIMARY KEY ( administratorkey );
+
+ALTER TABLE administrator ADD CONSTRAINT administrator_name_un UNIQUE ( name );
+
+ALTER TABLE administrator ADD CONSTRAINT administrator_phonenumber_un UNIQUE ( phonenumber );
+
+CREATE TABLE answear (
+    answearkey    INTEGER NOT NULL,
+    body          VARCHAR2(250 CHAR) NOT NULL,
+    questionkey   INTEGER NOT NULL,
+    salespointkey INTEGER NOT NULL,
+    employeekey   INTEGER NOT NULL
+);
+
+ALTER TABLE answear ADD CONSTRAINT answear_pk PRIMARY KEY ( answearkey );
+
+CREATE TABLE city (
+    citykey    INTEGER NOT NULL,
+    name       VARCHAR2(50 CHAR) NOT NULL,
+    postalcode VARCHAR2(50 CHAR) NOT NULL,
+    countrykey SMALLINT NOT NULL
+);
+
+ALTER TABLE city ADD CONSTRAINT city_pk PRIMARY KEY ( citykey );
+
+ALTER TABLE city ADD CONSTRAINT city_postalcode_un UNIQUE ( postalcode );
+
+CREATE TABLE country (
+    countrykey        SMALLINT NOT NULL,
+    name              VARCHAR2(50 CHAR) NOT NULL,
+    code              VARCHAR2(50 CHAR) NOT NULL,
+    salesterritorykey SMALLINT NOT NULL
+);
+
+ALTER TABLE country ADD CONSTRAINT country_pk PRIMARY KEY ( countrykey );
+
+ALTER TABLE country ADD CONSTRAINT country_code_un UNIQUE ( code );
+
+ALTER TABLE country ADD CONSTRAINT country_name_un UNIQUE ( name );
+
+CREATE TABLE customer (
+    customerkey      INTEGER NOT NULL,
+    email            VARCHAR2(50 CHAR) NOT NULL,
+    password         VARCHAR2(50 CHAR) NOT NULL,
+    firstname        VARCHAR2(50 CHAR) NOT NULL,
+    lastname         VARCHAR2(50 CHAR) NOT NULL,
+    phonenumber      VARCHAR2(11 CHAR),
+    birthday         DATE,
+    address          VARCHAR2(80 CHAR),
+    creationdate     DATE NOT NULL,
+    modificationdate DATE NOT NULL,
+    citykey          INTEGER NOT NULL,
+    administratorkey SMALLINT NOT NULL
+);
+
+ALTER TABLE customer ADD CONSTRAINT customer_pk PRIMARY KEY ( customerkey );
+
+ALTER TABLE customer ADD CONSTRAINT customer_email_un UNIQUE ( email );
+
+CREATE TABLE deliverymethod (
+    deliverymethodkey SMALLINT NOT NULL,
+    name              VARCHAR2(50 CHAR) NOT NULL
+);
+
+ALTER TABLE deliverymethod ADD CONSTRAINT deliverymethod_pk PRIMARY KEY ( deliverymethodkey );
+
+ALTER TABLE deliverymethod ADD CONSTRAINT deliverymethod_name_un UNIQUE ( name );
+
+CREATE TABLE employee (
+    employeekey   INTEGER NOT NULL,
+    firstname     VARCHAR2(50 CHAR) NOT NULL,
+    lastname      VARCHAR2(50 CHAR) NOT NULL,
+    email         VARCHAR2(50 CHAR) NOT NULL,
+    phonenumber   VARCHAR2(11 CHAR) NOT NULL,
+    salespointkey INTEGER NOT NULL
+);
+
+ALTER TABLE employee ADD CONSTRAINT employee_pk PRIMARY KEY ( employeekey );
+
+ALTER TABLE employee ADD CONSTRAINT employee_email_un UNIQUE ( email );
+
+CREATE TABLE orderdetail (
+    orderdetailkey     INTEGER NOT NULL,
+    quantity           NUMBER(3) NOT NULL,
+    catalogprice       NUMBER(10, 2) NOT NULL,
+    discountamount     NUMBER(10, 2),
+    discountpercentage NUMBER(2, 2),
+    transactionprice   NUMBER(10, 2) NOT NULL,
+    productkey         INTEGER NOT NULL,
+    refundkey          INTEGER NOT NULL
+);
+
+CREATE UNIQUE INDEX orderdetail__idx ON
+    orderdetail (
+        refundkey
+    ASC );
+
+ALTER TABLE orderdetail ADD CONSTRAINT orderdetail_pk PRIMARY KEY ( orderdetailkey );
+
+CREATE TABLE orderheader (
+    orderkey          INTEGER NOT NULL,
+    orderdate         DATE NOT NULL,
+    deliverydate      DATE NOT NULL,
+    deliverycost      NUMBER(10, 2) NOT NULL,
+    deliverymethodkey SMALLINT NOT NULL,
+    salespointkey     INTEGER NOT NULL,
+    paymentmethodkey  SMALLINT NOT NULL,
+    countrykey        SMALLINT NOT NULL,
+    orderdetailkey    INTEGER NOT NULL,
+    customerkey       INTEGER NOT NULL,
+    orderstatuskey    SMALLINT NOT NULL
+);
+
+ALTER TABLE orderheader ADD CONSTRAINT orderheader_pk PRIMARY KEY ( orderdetailkey,
+                                                                    orderkey );
+
+CREATE TABLE orderstatus (
+    orderstatuskey SMALLINT NOT NULL,
+    name           VARCHAR2(50 CHAR) NOT NULL
+);
+
+ALTER TABLE orderstatus ADD CONSTRAINT orderstatus_pk PRIMARY KEY ( orderstatuskey );
+
+CREATE TABLE paymentmethod (
+    paymentmethodkey SMALLINT NOT NULL,
+    name             VARCHAR2(50 CHAR) NOT NULL
+);
+
+ALTER TABLE paymentmethod ADD CONSTRAINT paymentmethod_pk PRIMARY KEY ( paymentmethodkey );
+
+ALTER TABLE paymentmethod ADD CONSTRAINT paymentmethod_name_un UNIQUE ( name );
+
+CREATE TABLE product (
+    productkey            INTEGER NOT NULL,
+    code                  VARCHAR2(10 CHAR) NOT NULL,
+    name                  VARCHAR2(50 CHAR) NOT NULL,
+    salespointkey         INTEGER NOT NULL,
+    productsubcategorykey SMALLINT NOT NULL
+);
+
+ALTER TABLE product ADD CONSTRAINT product_pk PRIMARY KEY ( productkey );
+
+ALTER TABLE product ADD CONSTRAINT product_code_un UNIQUE ( code );
+
+ALTER TABLE product ADD CONSTRAINT product_name_un UNIQUE ( name );
+
+CREATE TABLE productcategory (
+    productcategorykey SMALLINT NOT NULL,
+    name               VARCHAR2(50 CHAR) NOT NULL
+);
+
+ALTER TABLE productcategory ADD CONSTRAINT productcategory_pk PRIMARY KEY ( productcategorykey );
+
+ALTER TABLE productcategory ADD CONSTRAINT productcategory_name_un UNIQUE ( name );
+
+CREATE TABLE productsubcategory (
+    productsubcategorykey SMALLINT NOT NULL,
+    name                  VARCHAR2(50 CHAR) NOT NULL,
+    productcategorykey    SMALLINT NOT NULL
+);
+
+ALTER TABLE productsubcategory ADD CONSTRAINT productsubcategory_pk PRIMARY KEY ( productsubcategorykey );
+
+ALTER TABLE productsubcategory ADD CONSTRAINT productsubcategory_name_un UNIQUE ( name );
+
+CREATE TABLE question (
+    questionkey INTEGER NOT NULL,
+    title       VARCHAR2(20 CHAR) NOT NULL,
+    body        VARCHAR2(250 CHAR) NOT NULL,
+    customerkey INTEGER NOT NULL,
+    productkey  INTEGER NOT NULL
+);
+
+ALTER TABLE question ADD CONSTRAINT question_pk PRIMARY KEY ( questionkey );
+
+CREATE TABLE refund (
+    refundkey    INTEGER NOT NULL,
+    refundoption CHAR(1) NOT NULL,
+    title        VARCHAR2(50 CHAR) NOT NULL,
+    "Date"       DATE NOT NULL
+);
+
+ALTER TABLE refund ADD CONSTRAINT refund_pk PRIMARY KEY ( refundkey );
+
+CREATE TABLE salereport (
+    salereportkey            INTEGER NOT NULL,
+    title                    VARCHAR2(50) NOT NULL,
+    "Date"                   DATE NOT NULL,
+    salespoint_salespointkey INTEGER NOT NULL
+);
+
+ALTER TABLE salereport ADD CONSTRAINT salereport_pk PRIMARY KEY ( salereportkey );
+
+CREATE TABLE salespoint (
+    salespointkey     INTEGER NOT NULL,
+    address           VARCHAR2(80 CHAR) NOT NULL,
+    contactnumber     VARCHAR2(11 CHAR) NOT NULL,
+    modificationdate  DATE NOT NULL,
+    city_citykey      INTEGER NOT NULL,
+    administratorkey  SMALLINT NOT NULL,
+    deliverymethodkey SMALLINT NOT NULL
+);
+
+ALTER TABLE salespoint ADD CONSTRAINT salespoint_pk PRIMARY KEY ( salespointkey );
+
+ALTER TABLE salespoint ADD CONSTRAINT salespoint_address_un UNIQUE ( address );
+
+CREATE TABLE salesterritory (
+    salesterritorykey SMALLINT NOT NULL,
+    name              VARCHAR2(50 CHAR) NOT NULL
+);
+
+ALTER TABLE salesterritory ADD CONSTRAINT salesterritory_pk PRIMARY KEY ( salesterritorykey );
+
+ALTER TABLE salesterritory ADD CONSTRAINT salesterritory_name_un UNIQUE ( name );
+
+ALTER TABLE answear
+    ADD CONSTRAINT answear_employee_fk FOREIGN KEY ( employeekey )
+        REFERENCES employee ( employeekey );
+
+ALTER TABLE answear
+    ADD CONSTRAINT answear_question_fk FOREIGN KEY ( questionkey )
+        REFERENCES question ( questionkey );
+
+ALTER TABLE answear
+    ADD CONSTRAINT answear_salespoint_fk FOREIGN KEY ( salespointkey )
+        REFERENCES salespoint ( salespointkey );
+
+ALTER TABLE city
+    ADD CONSTRAINT city_country_fk FOREIGN KEY ( countrykey )
+        REFERENCES country ( countrykey );
+
+ALTER TABLE country
+    ADD CONSTRAINT country_salesterritory_fk FOREIGN KEY ( salesterritorykey )
+        REFERENCES salesterritory ( salesterritorykey );
+
+ALTER TABLE customer
+    ADD CONSTRAINT customer_administrator_fk FOREIGN KEY ( administratorkey )
+        REFERENCES administrator ( administratorkey );
+
+ALTER TABLE customer
+    ADD CONSTRAINT customer_city_fk FOREIGN KEY ( citykey )
+        REFERENCES city ( citykey );
+
+ALTER TABLE employee
+    ADD CONSTRAINT employee_salespoint_fk FOREIGN KEY ( salespointkey )
+        REFERENCES salespoint ( salespointkey );
+
+ALTER TABLE orderdetail
+    ADD CONSTRAINT orderdetail_product_fk FOREIGN KEY ( productkey )
+        REFERENCES product ( productkey );
+
+ALTER TABLE orderdetail
+    ADD CONSTRAINT orderdetail_refund_fk FOREIGN KEY ( refundkey )
+        REFERENCES refund ( refundkey );
+
+ALTER TABLE orderheader
+    ADD CONSTRAINT orderheader_country_fk FOREIGN KEY ( countrykey )
+        REFERENCES country ( countrykey );
+
+ALTER TABLE orderheader
+    ADD CONSTRAINT orderheader_customer_fk FOREIGN KEY ( customerkey )
+        REFERENCES customer ( customerkey );
+
+ALTER TABLE orderheader
+    ADD CONSTRAINT orderheader_deliverymethod_fk FOREIGN KEY ( deliverymethodkey )
+        REFERENCES deliverymethod ( deliverymethodkey );
+
+ALTER TABLE orderheader
+    ADD CONSTRAINT orderheader_orderdetail_fk FOREIGN KEY ( orderdetailkey )
+        REFERENCES orderdetail ( orderdetailkey );
+
+ALTER TABLE orderheader
+    ADD CONSTRAINT orderheader_orderstatus_fk FOREIGN KEY ( orderstatuskey )
+        REFERENCES orderstatus ( orderstatuskey );
+
+ALTER TABLE orderheader
+    ADD CONSTRAINT orderheader_paymentmethod_fk FOREIGN KEY ( paymentmethodkey )
+        REFERENCES paymentmethod ( paymentmethodkey );
+
+ALTER TABLE orderheader
+    ADD CONSTRAINT orderheader_salespoint_fk FOREIGN KEY ( salespointkey )
+        REFERENCES salespoint ( salespointkey );
+
+ALTER TABLE product
+    ADD CONSTRAINT product_productsubcategory_fk FOREIGN KEY ( productsubcategorykey )
+        REFERENCES productsubcategory ( productsubcategorykey );
+
+ALTER TABLE product
+    ADD CONSTRAINT product_salespoint_fk FOREIGN KEY ( salespointkey )
+        REFERENCES salespoint ( salespointkey );
+
+ALTER TABLE productsubcategory
+    ADD CONSTRAINT productsubcat_productcat_fk FOREIGN KEY ( productcategorykey )
+        REFERENCES productcategory ( productcategorykey );
+
+ALTER TABLE question
+    ADD CONSTRAINT question_customer_fk FOREIGN KEY ( customerkey )
+        REFERENCES customer ( customerkey );
+
+ALTER TABLE question
+    ADD CONSTRAINT question_product_fk FOREIGN KEY ( productkey )
+        REFERENCES product ( productkey );
+
+ALTER TABLE salereport
+    ADD CONSTRAINT salereport_salespoint_fk FOREIGN KEY ( salespoint_salespointkey )
+        REFERENCES salespoint ( salespointkey );
+
+ALTER TABLE salespoint
+    ADD CONSTRAINT salespoint_administrator_fk FOREIGN KEY ( administratorkey )
+        REFERENCES administrator ( administratorkey );
+
+ALTER TABLE salespoint
+    ADD CONSTRAINT salespoint_city_fk FOREIGN KEY ( city_citykey )
+        REFERENCES city ( citykey );
+
+ALTER TABLE salespoint
+    ADD CONSTRAINT salespoint_deliverymethod_fk FOREIGN KEY ( deliverymethodkey )
+        REFERENCES deliverymethod ( deliverymethodkey );
