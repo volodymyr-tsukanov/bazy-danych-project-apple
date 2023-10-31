@@ -69,7 +69,7 @@
 <colAssociation fkAssociation="C9111ED9-5162-9737-A8C4-68F38C4F0DB0" referredColumn="0EB83062-9E5A-C95B-C05F-209C39591F3D"/>
 </associations>
 </Column>
-<Column name="Administrator_AdministratorKey" id="D4E73CE3-751E-CB0B-72B2-CA6B985C51C8">
+<Column name="AdministratorKey" id="D4E73CE3-751E-CB0B-72B2-CA6B985C51C8">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:28 UTC</createdTime>
 <generatorID>2297F930-C3C5-DC4F-F368-0504B7520DE5</generatorID>
@@ -84,7 +84,7 @@
 <colAssociation fkAssociation="B4D6CD9C-5860-EA8B-31B2-D726BC8F27A7" referredColumn="C5F982FC-A5BB-757F-BC0D-58DF83E03EE2"/>
 </associations>
 </Column>
-<Column name="DeliveryMethod_DeliveryMethodKey" id="903B9570-89F0-B0C4-398C-4F02FC0916CB">
+<Column name="DeliveryMethodKey" id="903B9570-89F0-B0C4-398C-4F02FC0916CB">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:28 UTC</createdTime>
 <generatorID>6D672B2F-CF0D-CD31-DD1C-6EEF4E532D18</generatorID>

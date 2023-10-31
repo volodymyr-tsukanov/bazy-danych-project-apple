@@ -43,7 +43,7 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Country_CountryKey" id="AE948C68-3EDA-F7D5-9F77-59A7175E92CF">
+<Column name="CountryKey" id="AE948C68-3EDA-F7D5-9F77-59A7175E92CF">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>A64ECA43-530D-A7E9-151F-7D061D9FC1C0</generatorID>

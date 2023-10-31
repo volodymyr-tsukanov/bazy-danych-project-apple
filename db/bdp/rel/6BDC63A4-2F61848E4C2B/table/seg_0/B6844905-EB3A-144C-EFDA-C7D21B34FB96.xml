@@ -43,7 +43,7 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SalesPoint_SalesPointKey" id="843462DC-772C-5F6C-6752-0291C1204E80">
+<Column name="SalesPointKey" id="843462DC-772C-5F6C-6752-0291C1204E80">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>36D9C970-08C2-68F9-5297-4C81D2E1789C</generatorID>
@@ -58,7 +58,7 @@
 <colAssociation fkAssociation="E1E0C98E-6C86-3DF7-6DA8-B4DB7F39BA1A" referredColumn="A105BB8C-EBBB-5045-3916-498C620F6881"/>
 </associations>
 </Column>
-<Column name="ProductSubcategory_ProductSubcategoryKey" id="4537C63C-CD3E-0E4D-3C78-E8AA22F3CB61">
+<Column name="ProductSubcategoryKey" id="4537C63C-CD3E-0E4D-3C78-E8AA22F3CB61">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>D50DC6BA-6D36-AC0E-F624-FB13C26E6944</generatorID>

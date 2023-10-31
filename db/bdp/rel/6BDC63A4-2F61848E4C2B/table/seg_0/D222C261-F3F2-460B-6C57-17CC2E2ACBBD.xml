@@ -54,7 +54,7 @@
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DeliveryMethod_DeliveryMethodKey" id="38E8E386-4FB6-73C0-DD98-5034E02852E4">
+<Column name="DeliveryMethodKey" id="38E8E386-4FB6-73C0-DD98-5034E02852E4">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>498780DE-0A3D-E189-86EE-0F0BB3F845F9</generatorID>
@@ -69,7 +69,7 @@
 <colAssociation fkAssociation="BA271A85-5A09-B43B-D5E4-076E733B4004" referredColumn="F6365EEA-17FD-426D-07E2-FF54B4D350F2"/>
 </associations>
 </Column>
-<Column name="SalesPoint_SalesPointKey" id="8F452996-C9FE-6FE0-5939-9227D2C6BF54">
+<Column name="SalesPointKey" id="8F452996-C9FE-6FE0-5939-9227D2C6BF54">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>31AA79CD-9AD5-905D-A0B5-9FD2F138C8C6</generatorID>
@@ -84,7 +84,7 @@
 <colAssociation fkAssociation="F352579F-8954-B88E-D9D0-871584B21E9A" referredColumn="A105BB8C-EBBB-5045-3916-498C620F6881"/>
 </associations>
 </Column>
-<Column name="PaymentMethod_PaymentMethodKey" id="5972ADCA-BD16-2E1B-C2D0-3B25C859E525">
+<Column name="PaymentMethodKey" id="5972ADCA-BD16-2E1B-C2D0-3B25C859E525">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>F3395329-8B45-5D4E-AF22-1F3090B99013</generatorID>
@@ -99,7 +99,7 @@
 <colAssociation fkAssociation="2CFC6EA5-388A-32A9-BB5D-A5D606CA9CF6" referredColumn="F9896B5D-A049-51EA-854F-E068CAC8B84C"/>
 </associations>
 </Column>
-<Column name="Country_CountryKey" id="B3D2E87A-CDEF-C2AE-EA17-F912FF9B321F">
+<Column name="CountryKey" id="B3D2E87A-CDEF-C2AE-EA17-F912FF9B321F">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>85DDD7F2-196D-978B-BE94-1044519359D4</generatorID>
@@ -114,7 +114,7 @@
 <colAssociation fkAssociation="D849D973-FDF6-DE94-A58B-73F44041FE8F" referredColumn="EBC97AB3-CD4C-F444-0050-8EE3E6E647D9"/>
 </associations>
 </Column>
-<Column name="OrderDetail_OrderDetailKey" id="CB42E656-0D51-8388-EDD0-CE9EAD34E73D">
+<Column name="OrderDetailKey" id="CB42E656-0D51-8388-EDD0-CE9EAD34E73D">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>EBAC6DF4-7B0E-2051-C14E-AE1C401CF16D</generatorID>
@@ -129,7 +129,7 @@
 <colAssociation fkAssociation="0E605757-75AE-28F0-1B2D-8F395DAFAEDC" referredColumn="0EDA34EE-ABE3-8DED-7CC0-5959C524BE47"/>
 </associations>
 </Column>
-<Column name="Customer_CustomerKey" id="601CBF94-9941-E37A-7BED-9EDFF4E68A9B">
+<Column name="CustomerKey" id="601CBF94-9941-E37A-7BED-9EDFF4E68A9B">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>5995E236-83AE-4715-C94A-52A20EE44849</generatorID>
@@ -144,7 +144,7 @@
 <colAssociation fkAssociation="8318432F-EB0F-AB4D-3C53-74FDDAC4D8F2" referredColumn="16D2A08F-B9DF-1ECE-D62D-DB211FF5D899"/>
 </associations>
 </Column>
-<Column name="OrderStatus_OrderStatusKey" id="BAB76AC2-7B68-574B-3A83-DCE434EE2D6E">
+<Column name="OrderStatusKey" id="BAB76AC2-7B68-574B-3A83-DCE434EE2D6E">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>4ABA5F8A-9797-1D3F-67E0-65ED599B59E6</generatorID>

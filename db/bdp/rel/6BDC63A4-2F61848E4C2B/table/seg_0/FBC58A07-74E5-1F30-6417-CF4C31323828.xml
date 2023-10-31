@@ -31,7 +31,7 @@
 <ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Question_QuestionKey" id="5E38D8D4-9441-9AA9-68D6-1DF3F639461C">
+<Column name="QuestionKey" id="5E38D8D4-9441-9AA9-68D6-1DF3F639461C">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>79EB8A95-341A-81B1-6CE0-90F1D1D08A6A</generatorID>
@@ -46,7 +46,7 @@
 <colAssociation fkAssociation="3B686090-2239-A5C2-0091-C36C079CF518" referredColumn="0BFE03CD-7A81-1CC0-FFF9-75B0041EFB3D"/>
 </associations>
 </Column>
-<Column name="SalesPoint_SalesPointKey" id="9DC06F2D-FD27-A8DD-6748-4578FD4B831D">
+<Column name="SalesPointKey" id="9DC06F2D-FD27-A8DD-6748-4578FD4B831D">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>8E0A0891-B66F-2793-FA07-7E95EAD5517A</generatorID>
@@ -61,7 +61,7 @@
 <colAssociation fkAssociation="0D03F9CE-343A-05DC-8DD8-D77482E7A624" referredColumn="A105BB8C-EBBB-5045-3916-498C620F6881"/>
 </associations>
 </Column>
-<Column name="Employee_EmployeeKey" id="20AF15A8-D792-6F88-9229-806FE64C025F">
+<Column name="EmployeeKey" id="20AF15A8-D792-6F88-9229-806FE64C025F">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>91ED964F-E551-E691-3C6B-50764FC6B0AF</generatorID>

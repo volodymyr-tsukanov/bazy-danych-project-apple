@@ -67,7 +67,7 @@
 <ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SalesPoint_SalesPointKey" id="7DF99504-C37E-C9A1-CB5D-8DD763A833C2">
+<Column name="SalesPointKey" id="7DF99504-C37E-C9A1-CB5D-8DD763A833C2">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>CDAE9F0E-D62A-1CBB-0E36-B1E73BC60D76</generatorID>

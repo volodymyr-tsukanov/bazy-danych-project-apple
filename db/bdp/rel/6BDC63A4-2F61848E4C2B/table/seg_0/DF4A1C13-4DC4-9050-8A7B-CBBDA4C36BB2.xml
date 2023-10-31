@@ -38,7 +38,7 @@
 <ownerDesignName>bdp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
+<logicalDatatype>LOGDT043</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
@@ -79,13 +79,13 @@
 <ownerDesignName>bdp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
+<logicalDatatype>LOGDT043</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Product_ProductKey" id="C98F4062-850B-A2A6-FE7D-16272BDF7821">
+<Column name="ProductKey" id="C98F4062-850B-A2A6-FE7D-16272BDF7821">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>8696DB06-DFAA-BCB8-0043-F4B255A1FE05</generatorID>
@@ -100,7 +100,7 @@
 <colAssociation fkAssociation="F986D5A3-74A1-0F5C-D682-D2D61DB47634" referredColumn="474811ED-C8C1-7EDA-467A-4E3193BFC832"/>
 </associations>
 </Column>
-<Column name="Refund_RefundKey" id="8733822D-8764-1D39-C136-1C7EBE4D94B8">
+<Column name="RefundKey" id="8733822D-8764-1D39-C136-1C7EBE4D94B8">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>5DAAB3D7-4EFC-EC1A-66C8-B5DE62F34298</generatorID>

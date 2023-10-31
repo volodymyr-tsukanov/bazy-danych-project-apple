@@ -31,7 +31,7 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ProductCategory_ProductCategoryKey" id="296B8F19-F108-E7AC-9167-04702DB3FB33">
+<Column name="ProductCategoryKey" id="296B8F19-F108-E7AC-9167-04702DB3FB33">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>FE4D6A3A-DE9C-7257-F44D-FAE7605E4ECE</generatorID>

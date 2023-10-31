@@ -44,7 +44,7 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SalesTerritory_SalesTerritoryKey" id="94935D67-EF37-884E-3CBB-0AA125A937D4">
+<Column name="SalesTerritoryKey" id="94935D67-EF37-884E-3CBB-0AA125A937D4">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>8FAD635F-6FBC-B5C2-532F-D29E113AB094</generatorID>

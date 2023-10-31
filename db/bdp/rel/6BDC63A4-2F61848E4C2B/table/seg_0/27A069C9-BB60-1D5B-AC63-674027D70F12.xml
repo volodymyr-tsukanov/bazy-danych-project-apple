@@ -43,7 +43,7 @@
 <ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Customer_CustomerKey" id="FCCA1A93-FDD2-08F3-17B4-7DFB40E74A96">
+<Column name="CustomerKey" id="FCCA1A93-FDD2-08F3-17B4-7DFB40E74A96">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>D1EF7C78-5EB8-1B9B-07A4-293D64EE0466</generatorID>
@@ -58,7 +58,7 @@
 <colAssociation fkAssociation="A8227EC9-6EF2-4AA4-2188-D6E9CF6E8DE7" referredColumn="16D2A08F-B9DF-1ECE-D62D-DB211FF5D899"/>
 </associations>
 </Column>
-<Column name="Product_ProductKey" id="FF318130-A009-9293-C954-DA9F06443290">
+<Column name="ProductKey" id="FF318130-A009-9293-C954-DA9F06443290">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>702535E3-E611-D72D-2E2E-9A246977E953</generatorID>

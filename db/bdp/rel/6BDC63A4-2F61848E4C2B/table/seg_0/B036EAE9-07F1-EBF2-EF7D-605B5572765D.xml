@@ -127,7 +127,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="City_CityKey" id="0CB04005-5207-1316-9FCE-A8AB10B25509">
+<Column name="CityKey" id="0CB04005-5207-1316-9FCE-A8AB10B25509">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>1C179838-9FEF-8AB2-387C-055EBF36FAEB</generatorID>
@@ -142,7 +142,7 @@
 <colAssociation fkAssociation="E19A6DB9-4BD0-85A7-368C-8AF75F2E8668" referredColumn="0EB83062-9E5A-C95B-C05F-209C39591F3D"/>
 </associations>
 </Column>
-<Column name="Administrator_AdministratorKey" id="09EC6007-4E96-5B54-3B34-37AE7AD13191">
+<Column name="AdministratorKey" id="09EC6007-4E96-5B54-3B34-37AE7AD13191">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
 <generatorID>2DCC4DF0-0686-79DB-78D7-903775CEB55C</generatorID>
