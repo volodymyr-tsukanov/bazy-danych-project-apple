@@ -43,6 +43,16 @@
 <ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Date" id="EFBD30F3-2428-2DB8-CD20-4A5A346D8BD6">
+<createdBy>student</createdBy>
+<createdTime>2023-10-31 09:53:53 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="CustomerKey" id="FCCA1A93-FDD2-08F3-17B4-7DFB40E74A96">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>

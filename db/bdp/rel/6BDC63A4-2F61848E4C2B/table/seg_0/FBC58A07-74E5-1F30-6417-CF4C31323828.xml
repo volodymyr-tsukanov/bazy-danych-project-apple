@@ -31,6 +31,16 @@
 <ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Date" id="86383FF2-D215-0730-9459-09CCD1CA31A5">
+<createdBy>student</createdBy>
+<createdTime>2023-10-31 09:54:16 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="QuestionKey" id="5E38D8D4-9441-9AA9-68D6-1DF3F639461C">
 <createdBy>VladiMr</createdBy>
 <createdTime>2023-10-29 19:58:27 UTC</createdTime>
