@@ -1,0 +1,33 @@
+DROP TABLE orderheader ;
+
+DROP TABLE answear ;
+
+DROP TABLE employee ;
+
+DROP TABLE question ;
+
+DROP TABLE orderstatus ;
+
+DROP TABLE paymentmethod ;
+
+DROP TABLE salereport ;
+
+DROP TABLE customer ;
+
+ALTER TABLE salespoint
+DROP COLUMN City_CityKey ;
+DROP TABLE city ;
+
+DROP TABLE country ;
+
+DROP TABLE salesterritory ;
+
+ALTER TABLE orderdetail
+DROP COLUMN RefundKey ;
+DROP TABLE orderdetail ;
+
+DROP TABLE  ;
+DROP TABLE  ;
+DROP TABLE  ;
+DROP TABLE  ;
+DROP TABLE  ;
