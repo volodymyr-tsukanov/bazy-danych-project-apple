@@ -17,6 +17,8 @@
 <use>1</use>
 <logicalDatatype>LOGDT018</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Name" id="6060766E-DB40-CBA8-40C6-D0D1A3D3E1B4">
