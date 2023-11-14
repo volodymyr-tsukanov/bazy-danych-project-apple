@@ -3,4 +3,4 @@ Baza danych dla systemu sprzedaży produktów marki Apple</br>
 SQL, Oracle Database; Informatyka l stopień 3 semestr</br></br>
 
 
-Rozdział 6. Fizyczny model
+Testowanie bazy dannych
