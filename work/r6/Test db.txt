@@ -1,0 +1,1 @@
+SELECT country.name, country.code, salesterritory.name FROM country INNER JOIN country salesterritory ON country.salesterritorykey = salesterritory.salesterritorykey;
