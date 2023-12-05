@@ -1,0 +1,49 @@
+DROP TABLE orderheader ;
+
+DROP TABLE answear ;
+
+DROP TABLE employee ;
+
+DROP TABLE question ;
+
+DROP TABLE orderstatus ;
+
+DROP TABLE paymentmethod ;
+
+DROP TABLE salereport ;
+
+DROP TABLE customer ;
+
+ALTER TABLE salespoint
+DROP COLUMN city_citykey ;
+DROP TABLE city ;
+
+DROP TABLE country ;
+
+DROP TABLE salesterritory ;
+
+ALTER TABLE orderdetail
+DROP COLUMN refundkey ;
+DROP TABLE orderdetail ;
+
+ALTER TABLE administrator
+DROP COLUMN name ;
+DROP COLUMN phonenumber ;
+DROP TABLE administrator ;
+
+ALTER TABLE product
+DROP COLUMN salespointkey ;
+DROP COLUMN productsubcategorykey ;
+DROP TABLE product ;
+
+ALTER TABLE productsubcategory
+DROP COLUMN productcategorykey ;
+DROP TABLE productsubcategory ;
+
+DROP TABLE productcategory ;
+
+ALTER TABLE salespoint
+DROP COLUMN city_city_key ;
+DROP COLUMN administratorkey ;
+DROP COLUMN deliverymethodkey ;
+DROP TABLE salespoint ;

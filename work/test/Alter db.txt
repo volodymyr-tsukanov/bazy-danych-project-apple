@@ -1,0 +1,34 @@
+INSERT INTO salesterritory (name) VALUES ('Europe');
+INSERT INTO salesterritory (name) VALUES ('Asia');
+INSERT INTO salesterritory (name) VALUES ('North America');
+INSERT INTO salesterritory (name) VALUES ('Sougth America');
+INSERT INTO salesterritory (name) VALUES ('Africa');
+
+
+INSERT INTO country (name, code, salesterritorykey) VALUES ('Poland', '48', '1');
+INSERT INTO country (name, code, salesterritorykey) VALUES ('Germany', '49', '1');
+INSERT INTO country (name, code, salesterritorykey) VALUES ('Ukraine', '38', '1');
+
+INSERT INTO country (name, code, salesterritorykey) VALUES ('China', '86', '2');
+
+INSERT INTO country (name, code, salesterritorykey) VALUES ('United States', '1', '3');
+
+INSERT INTO country (name, code, salesterritorykey) VALUES ('Brazil', '55', '4');
+
+INSERT INTO country (name, code, salesterritorykey) VALUES ('Niger', '227', '5');
+
+
+INSERT INTO city (name, postalcode, countrykey) VALUES ('Lublin', '20', '1');
+
+INSERT INTO city (name, postalcode, countrykey) VALUES ('Berlin', '10', '2');
+
+INSERT INTO city (name, postalcode, countrykey) VALUES ('Kyiv', '01', '3');
+
+INSERT INTO city (name, postalcode, countrykey) VALUES ('Pekin', '66', '4');
+
+INSERT INTO city (name, postalcode, countrykey) VALUES ('Los Angeles', '12', '5');
+
+INSERT INTO city (name, postalcode, countrykey) VALUES ('Brasilia', '57', '6');
+
+INSERT INTO city (name, postalcode, countrykey) VALUES ('Niamey', '99', '7');
+
