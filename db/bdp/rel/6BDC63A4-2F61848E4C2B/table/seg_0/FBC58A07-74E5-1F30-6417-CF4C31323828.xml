@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FBC58A07-74E5-1F30-6417-CF4C31323828" name="Answear">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>A787A436-9C60-F1F6-86AD-FF468F67E100</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AnswearKey" id="817C4558-5B81-CFB5-7FCB-37531C02334A">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>F9C198AD-84BB-2472-716D-32C976EBCD2D</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Body" id="3D58CF75-DFB4-724F-4D3D-9225BD3E3967">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>98824F99-B222-2DD4-4763-873BAD8AF72B</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="86383FF2-D215-0730-9459-09CCD1CA31A5">
+<createdBy>student</createdBy>
+<createdTime>2023-10-31 09:54:16 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuestionKey" id="5E38D8D4-9441-9AA9-68D6-1DF3F639461C">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>79EB8A95-341A-81B1-6CE0-90F1D1D08A6A</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B686090-2239-A5C2-0091-C36C079CF518" referredColumn="0BFE03CD-7A81-1CC0-FFF9-75B0041EFB3D"/>
+</associations>
+</Column>
+<Column name="SalesPointKey" id="9DC06F2D-FD27-A8DD-6748-4578FD4B831D">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>8E0A0891-B66F-2793-FA07-7E95EAD5517A</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D03F9CE-343A-05DC-8DD8-D77482E7A624" referredColumn="A105BB8C-EBBB-5045-3916-498C620F6881"/>
+</associations>
+</Column>
+<Column name="EmployeeKey" id="20AF15A8-D792-6F88-9229-806FE64C025F">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>91ED964F-E551-E691-3C6B-50764FC6B0AF</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BF6F02A-57D7-35F6-94D6-20B168C67505" referredColumn="B02B51ED-9DD5-16F6-56E9-53FD70ACEBDA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B83C6780-9D90-03BF-EB18-864C0BC7EA25" name="Answear_PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>9ED9F7A4-457D-CB3B-3075-35C5888F52B4</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="817C4558-5B81-CFB5-7FCB-37531C02334A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABC0D97B-116B-64BF-3D9B-174FDB15D8E0" name="Answear_Employee_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:28 UTC</createdTime>
+<generatorID>65EEE039-D30D-5C9C-4C44-8004F49C5F96</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20AF15A8-D792-6F88-9229-806FE64C025F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E195B4B-0D06-A418-D773-3039FA721BDE" name="Answear_Question_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:28 UTC</createdTime>
+<generatorID>5AA258BD-62F2-73E4-87F5-A0AB8091A427</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E38D8D4-9441-9AA9-68D6-1DF3F639461C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CB807EC-5568-EEB6-6BA4-6DE9C7500454" name="Answear_SalesPoint_FK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:28 UTC</createdTime>
+<generatorID>CB6E29C1-8D64-3FDE-417A-0EA7D6E503F1</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DC06F2D-FD27-A8DD-6748-4578FD4B831D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

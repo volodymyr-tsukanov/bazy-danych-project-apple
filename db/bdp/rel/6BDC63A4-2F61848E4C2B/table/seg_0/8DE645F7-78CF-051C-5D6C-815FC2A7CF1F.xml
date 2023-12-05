@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DE645F7-78CF-051C-5D6C-815FC2A7CF1F" name="OrderStatus">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>39FDB206-AE72-58FA-2588-29B836F58B19</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrderStatusKey" id="E988D3B4-A2FA-36B0-4DE3-79D2A769A3FD">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>499D6085-C3BA-8D54-66C0-E4988457988B</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="DA6B7B07-5283-769F-DA9E-B53C41F75166">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>16FB46C2-D39A-C782-A9C5-42165879719E</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E50B346D-371F-C908-6207-FB096C1D548C" name="OrderStatus_PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:27 UTC</createdTime>
+<generatorID>E8033997-C89E-46AD-AB05-C79B1A03220E</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E988D3B4-A2FA-36B0-4DE3-79D2A769A3FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

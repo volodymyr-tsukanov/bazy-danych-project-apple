@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E1B8BC0-5DE9-68BF-54DA-C7741FF589F6" name="SalesTerritory">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:28 UTC</createdTime>
+<generatorID>53F9F9F6-19F6-C3CA-76C5-FAB162604EB0</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SalesTerritoryKey" id="FD53760C-78A5-ADE6-6C87-A70BDB36C20D">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:28 UTC</createdTime>
+<generatorID>220FCC3D-BF66-41F9-4F63-754616E1979C</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="61BAD7CA-28C5-D69B-83D0-C3158ED6C9AE">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:28 UTC</createdTime>
+<generatorID>59A59A99-6BF7-C41D-3E6D-078D79D27A88</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="637AFFFC-685A-E6B4-E69C-2006A9198446" name="SalesTerritory_PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:28 UTC</createdTime>
+<generatorID>E50FAF39-DB94-7994-1506-36976CFC0A21</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD53760C-78A5-ADE6-6C87-A70BDB36C20D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="016877BA-9FB4-3DEF-BD34-CFB31E837C27" name="SalesTerritory_Name_UN">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 19:58:28 UTC</createdTime>
+<generatorID>D20B5686-73D1-4E4F-6549-6044DCD1DF04</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61BAD7CA-28C5-D69B-83D0-C3158ED6C9AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

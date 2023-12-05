@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OrderStatus_OrderHeaders" directorySegmentName="seg_0" id="7FFD3731-91BE-181E-AA7D-BCD0654C7857">
+<createdBy>student</createdBy>
+<createdTime>2023-10-17 08:02:27 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+</engineerTo>
+<sourcePk>E8033997-C89E-46AD-AB05-C79B1A03220E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>39FDB206-AE72-58FA-2588-29B836F58B19</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2120BA58-CDA0-912E-17C2-CD7B1A2CB216</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
