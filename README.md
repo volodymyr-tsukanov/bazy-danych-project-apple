@@ -1,6 +1,3 @@
-# bazy-danych-project-apple
-Baza danych dla systemu sprzedaży produktów marki Apple</br>
-SQL, Oracle Database; Informatyka l stopień 3 semestr</br></br>
-
-
+# Rozdział 7
+SQL ; Oracle SQL Developer</br>
 Testowanie bazy dannych
