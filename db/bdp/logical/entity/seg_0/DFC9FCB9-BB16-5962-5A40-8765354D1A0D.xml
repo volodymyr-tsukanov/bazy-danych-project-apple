@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DFC9FCB9-BB16-5962-5A40-8765354D1A0D" name="Product">
+<createdBy>student</createdBy>
+<createdTime>2023-10-17 08:06:29 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ProductKey" id="07F6E527-29C7-B955-58F2-C7E9E0961FA9">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:54:28 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Code" id="158BFC5A-F1B5-899A-F9E2-C4E5A6C13EB3">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:54:36 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="9861F678-1A35-CA36-A064-275A8E0C0C7D">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:54:49 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SalesPointKey" id="36D9C970-08C2-68F9-5297-4C81D2E1789C">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:47:47 UTC</createdTime>
+<generatorID>9E393839-8679-7481-6C88-F31E19E4FFDA</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<referedAttribute>0158F247-ADE4-DD65-81C5-BC0797607628</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductSubcategoryKey" id="D50DC6BA-6D36-AC0E-F624-FB13C26E6944">
+<createdBy>student</createdBy>
+<createdTime>2023-10-24 08:13:58 UTC</createdTime>
+<generatorID>66B582F3-D9E0-4220-C711-03BA08E3967D</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<referedAttribute>07014949-3281-4ED2-F60B-EDE23EE7ECBF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A039BC68-F5DC-2784-01D8-FF411DA2A9A2" name="Product PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:54:34 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>07F6E527-29C7-B955-58F2-C7E9E0961FA9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="214E6EB1-5827-B588-6F3E-8CFD0DA09AF6" name="Product_Code_UN">
+<createdBy>karol</createdBy>
+<createdTime>2023-10-23 21:59:16 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<newElementsIDs>158BFC5A-F1B5-899A-F9E2-C4E5A6C13EB3</newElementsIDs>
+<usedAttributes>
+<attributeRef>158BFC5A-F1B5-899A-F9E2-C4E5A6C13EB3</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="57F8EC85-EFF6-F6E0-0A15-A671E0805E3F" name="Product_Name_UN">
+<createdBy>karol</createdBy>
+<createdTime>2023-10-23 22:01:20 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<newElementsIDs>9861F678-1A35-CA36-A064-275A8E0C0C7D</newElementsIDs>
+<usedAttributes>
+<attributeRef>9861F678-1A35-CA36-A064-275A8E0C0C7D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

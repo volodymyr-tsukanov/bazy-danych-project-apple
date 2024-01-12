@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E004B45-94EC-1689-6AA0-B09100EE5260" name="DeliveryMethod">
+<createdBy>student</createdBy>
+<createdTime>2023-10-17 08:00:21 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DeliveryMethodKey" id="7274A263-0597-A32D-5A24-7925F8317267">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:38:07 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="C73EF503-1307-AAF4-8459-325BABD852BC">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:38:29 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03694551-AB2C-AD22-E876-25D69962F50D" name="DeliveryMethod PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:38:23 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>7274A263-0597-A32D-5A24-7925F8317267</newElementsIDs>
+<usedAttributes>
+<attributeRef>7274A263-0597-A32D-5A24-7925F8317267</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="DA353B73-2967-BB49-AB3F-351D5DA78705" name="DeliveryMethod_Name_UN">
+<createdBy>karol</createdBy>
+<createdTime>2023-10-23 21:52:23 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<newElementsIDs>C73EF503-1307-AAF4-8459-325BABD852BC</newElementsIDs>
+<usedAttributes>
+<attributeRef>C73EF503-1307-AAF4-8459-325BABD852BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

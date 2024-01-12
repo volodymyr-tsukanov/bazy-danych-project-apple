@@ -1,0 +1,229 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E0555BA-2056-56E5-3471-679BAB047F57" name="OrderHeader">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>2120BA58-CDA0-912E-17C2-CD7B1A2CB216</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrderKey" id="89B930FA-5934-91EE-B66D-FEBB92CF1FA2">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>C24D81FE-E88F-B678-E4BC-49C23DA88154</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrderDate" id="D9E69F1F-9352-9B67-6131-C3CC7D140D03">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>F84D7B0D-D714-A1B3-116E-C24FD02A600F</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DeliveryDate" id="9B0FD32C-EECD-6E20-3398-D9B508259D9F">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>45A6953D-4A85-0A51-88E5-1E4D733F13DD</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DeliveryCost" id="1D30A581-5005-87AE-30B6-1069753B458B">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>D9641247-9BDE-4FFC-DDA4-E7057AF0E026</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DeliveryMethodKey" id="C1307B9E-9B9A-7F8B-A3E6-082E5E77304A">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>498780DE-0A3D-E189-86EE-0F0BB3F845F9</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE84709A-94B9-8C90-30EE-4257E3123EA7" referredColumn="FAE94F02-3A64-711F-8B3F-12148997AFE3"/>
+</associations>
+</Column>
+<Column name="SalesPointKey" id="DCE921EF-47A4-434E-7183-D28FD15AA450">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>31AA79CD-9AD5-905D-A0B5-9FD2F138C8C6</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FD946E3-C0AB-6A2F-2FCB-77423EE840D6" referredColumn="0CDED192-2665-B9EA-CA2D-2724B4F783F9"/>
+</associations>
+</Column>
+<Column name="PaymentMethodKey" id="786213E5-03B8-1F3E-DB36-A5EFD5748BFE">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>F3395329-8B45-5D4E-AF22-1F3090B99013</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12E55927-4C15-AA51-F752-476BBD83E0A5" referredColumn="1EDDB1B3-3C69-A4AD-9CD0-8909D8915582"/>
+</associations>
+</Column>
+<Column name="CountryKey" id="F203FE2E-1FCB-4086-DBA9-5F73FD81C6D4">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>85DDD7F2-196D-978B-BE94-1044519359D4</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E62CA1B-5C40-FC5B-11C6-9C67C57D8969" referredColumn="2D375BF7-E870-B0B0-34B1-EB80ED1E7DB6"/>
+</associations>
+</Column>
+<Column name="CustomerKey" id="C404707F-58F5-F555-70FB-621F6EE763EB">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>5995E236-83AE-4715-C94A-52A20EE44849</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9F2AC93-0896-FF32-7A02-34151CB087AE" referredColumn="DF0B17BB-7E7F-8C61-C091-8BCC1362045C"/>
+</associations>
+</Column>
+<Column name="OrderStatusKey" id="44EC0593-EDCE-DA8F-D66D-19701AB692F8">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>4ABA5F8A-9797-1D3F-67E0-65ED599B59E6</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66C585E5-AD66-CA0E-0E7C-1671ACD5AB13" referredColumn="D0AE6A1E-6ADD-8E41-4D96-91D1CC989540"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB74F275-5C10-02A8-C929-5571A09F8297" name="OrderHeader_PK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>719764E2-5613-5E1E-66B2-7FFE83266184</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89B930FA-5934-91EE-B66D-FEBB92CF1FA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1D9171C-38FD-6F8F-1B0A-2F18F5DA6476" name="Country_FKv1">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>9A8C0850-686B-98DD-312D-AAE21A4BAF81</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F203FE2E-1FCB-4086-DBA9-5F73FD81C6D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6B42874-7726-BC25-7989-6128068A96B8" name="Customer_FK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>825C391C-C18E-1734-1D81-0C1F63E0FDA5</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C404707F-58F5-F555-70FB-621F6EE763EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7107AF7-02C4-BBA5-FC9C-B174DFD0CFEB" name="DeliveryMethod_FK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>CD05C3EF-5E20-CDE8-4B36-F099FA1D6F19</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1307B9E-9B9A-7F8B-A3E6-082E5E77304A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1FD2897-1D73-0196-0C7A-D6B67DB04831" name="OrderStatus_FK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>7FFD3731-91BE-181E-AA7D-BCD0654C7857</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44EC0593-EDCE-DA8F-D66D-19701AB692F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18282A0A-F28C-AB19-48E6-F2506ED3BD41" name="PaymentMethod_FK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>00C30C4A-77B1-4D53-9AFE-81567D089D7D</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="786213E5-03B8-1F3E-DB36-A5EFD5748BFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A28366C-E859-FB10-E061-E0D12F39243A" name="SalesPoint_FK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>D93CACB4-A2AA-E69E-57D5-B1D4792B6C1B</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCE921EF-47A4-434E-7183-D28FD15AA450"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

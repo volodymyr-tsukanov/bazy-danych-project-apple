@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Country SalesTerritory FK" directorySegmentName="seg_0" id="EE1A9B8E-2B1A-C75D-BDFD-BAA74C8F034F">
+<createdBy>student</createdBy>
+<createdTime>2023-10-17 08:06:01 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<sourcePk>E50FAF39-DB94-7994-1506-36976CFC0A21</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>53F9F9F6-19F6-C3CA-76C5-FAB162604EB0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E919A297-E7BF-3DFF-4385-556FE05A72DE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

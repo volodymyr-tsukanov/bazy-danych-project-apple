@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="664056F9-0703-B66E-9669-F4D820CA467C" name="Administrator">
+<createdBy>student</createdBy>
+<createdTime>2023-10-17 08:20:53 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AdministratorKey" id="6A271DCA-278B-794B-6384-E7B8A767218E">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:52:15 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="FBC69EE8-A23F-4700-1F50-941764D3F0D5">
+<createdBy>karol</createdBy>
+<createdTime>2023-10-23 21:45:16 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PhoneNumber" id="1395EC71-0F5C-E0BF-DD8B-88FBD0FA0F40">
+<createdBy>student</createdBy>
+<createdTime>2023-10-24 08:42:27 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B45EC1F2-1DCF-0671-EF09-92D4EBEE0FED" name="Administrator PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:52:25 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A271DCA-278B-794B-6384-E7B8A767218E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B8246539-FFA6-B3C2-72C0-ECCBFB210AEB" name="Administrator_Name_UN">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 18:53:33 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<newElementsIDs>FBC69EE8-A23F-4700-1F50-941764D3F0D5</newElementsIDs>
+<usedAttributes>
+<attributeRef>FBC69EE8-A23F-4700-1F50-941764D3F0D5</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B31D7739-320F-B0F1-017B-F420D4077B5F" name="Administrator_PhoneNumber_UN">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-29 18:53:54 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<newElementsIDs>1395EC71-0F5C-E0BF-DD8B-88FBD0FA0F40</newElementsIDs>
+<usedAttributes>
+<attributeRef>1395EC71-0F5C-E0BF-DD8B-88FBD0FA0F40</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
