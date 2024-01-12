@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A21A3D2D-06F7-D9A1-EBB9-1369A4D0A398" name="City">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>4F4230F6-9DB6-C505-227A-37058F17F4BB</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CityKey" id="97E0B38D-BE1D-5C34-85D6-CFF4946E5F85">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>2C93C47E-054F-EF39-768A-6D3F05E970ED</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="579184AC-F152-31EE-5616-B11F722D1ABB">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>0CF4B6EC-1282-8F85-7831-E841EBD0CD8B</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PostalCode" id="3EE80DFB-4B82-ABCB-4244-28AA2CBDC92D">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>778238D4-AE5E-D960-BD05-F8902EF72DBF</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CountryKey" id="D42CA0B6-6785-0095-6848-DCA9FC143A2C">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>A64ECA43-530D-A7E9-151F-7D061D9FC1C0</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6997E2F-D44A-12CD-7778-9AFBDFACE4D3" referredColumn="38404EA6-5D1E-411E-28BF-35033AF99335"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5538EAB7-C3FA-5ED0-B6E9-2B4551E998E1" name="City_PK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>FC26A217-0CE4-C68A-6579-50CCBC27C904</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97E0B38D-BE1D-5C34-85D6-CFF4946E5F85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBA0E567-46D7-DABE-2C67-661181C32183" name="City_PostalCode_UN">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>A013D199-F722-5BCD-217F-1EA28AFE9EE9</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EE80DFB-4B82-ABCB-4244-28AA2CBDC92D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="544BB9BB-4706-81E4-B755-0791D68C51A4" name="City_Country_FK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>781CFAF6-5A3D-5C06-FFE8-C0E67D2BA349</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D42CA0B6-6785-0095-6848-DCA9FC143A2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69D131C5-24D3-A536-63DF-1E31A1353443" name="ProductList">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<ordsAlias>orderdetail_product_fk</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Product_ProductKey" id="42611716-6292-5580-799F-D3CB36E7B4AB">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07CCB67D-4674-B61D-B47F-2A437CCACDE7" referredColumn="BC69143D-D518-0D36-05CA-E252AD4F5455"/>
+</associations>
+</Column>
+<Column name="OD_OrderDetailKey" id="48EA81B1-2C7C-CDE4-11F0-388AE8DC6FA5">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D4D2AB1-5CBB-FE05-C172-693E8B967721" referredColumn="AD52035D-B05A-FEB0-9878-6B165FC16824"/>
+</associations>
+</Column>
+<Column name="OD_OH_OrderKey" id="808423DD-8433-9F7F-5ED6-B434FE66B057">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D4D2AB1-5CBB-FE05-C172-693E8B967721" referredColumn="D9022364-5C02-7BB0-7A54-2AC87DD62561"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FAFF6DD8-6555-92DB-1833-8E8F96380FD3" name="OrderDetail_Product_FK_PK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42611716-6292-5580-799F-D3CB36E7B4AB"/>
+<colUsage columnID="48EA81B1-2C7C-CDE4-11F0-388AE8DC6FA5"/>
+<colUsage columnID="808423DD-8433-9F7F-5ED6-B434FE66B057"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43EEC52A-62EA-747C-8F8A-6E687895A81F" name="ProductList_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:28:02 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42611716-6292-5580-799F-D3CB36E7B4AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AE4E8BB-7501-97C6-EE90-05F11759E73A" name="Product_FKv1">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>0FB7DCEF-2710-0501-54C8-093B9CED694F</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42611716-6292-5580-799F-D3CB36E7B4AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD3F1B47-496D-228E-10A9-E6B597F38BDC" name="OrderDetail_FK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>0FB7DCEF-2710-0501-54C8-093B9CED694F</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48EA81B1-2C7C-CDE4-11F0-388AE8DC6FA5"/>
+<colUsage columnID="808423DD-8433-9F7F-5ED6-B434FE66B057"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

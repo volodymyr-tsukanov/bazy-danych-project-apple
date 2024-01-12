@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14919033-48E1-EB6E-9A5A-2A3BE4E7DA0F" name="OrderStatus">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>39FDB206-AE72-58FA-2588-29B836F58B19</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrderStatusKey" id="D0AE6A1E-6ADD-8E41-4D96-91D1CC989540">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>499D6085-C3BA-8D54-66C0-E4988457988B</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="B65231B9-DCD7-661B-6220-508F658D36E6">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>16FB46C2-D39A-C782-A9C5-42165879719E</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B94262E-6DA7-098F-4A61-3F626AE55008" name="OrderStatus_PK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>E8033997-C89E-46AD-AB05-C79B1A03220E</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0AE6A1E-6ADD-8E41-4D96-91D1CC989540"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BBD7039-66FA-6463-7196-2CE60615F277" name="OrderStatus_Name_UN">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>8AC3548E-0625-0C1F-C7FC-C96CC1F30669</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B65231B9-DCD7-661B-6220-508F658D36E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94E2A33F-5872-B42F-5FF6-D73D9CAC4000" name="OrderStatus_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:22:41 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0AE6A1E-6ADD-8E41-4D96-91D1CC989540"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D92B1E29-AB37-7F64-8A7E-9A3E45F4B22B" name="OrderStatus_IDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:39:35 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B65231B9-DCD7-661B-6220-508F658D36E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F94D1497-78E3-BB1F-59BD-E4755CA4CEAE" name="SalesPoint">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>B05BA131-0D93-D612-9F86-661754A77AA7</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SalesPointKey" id="DD4E72E5-DDD0-2E0D-AF88-923E823E45E2">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>0158F247-ADE4-DD65-81C5-BC0797607628</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="B173D238-5452-5886-A2B6-207DF6F223EC">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>04B3EAD1-B7CA-E2EE-78A7-E49A09F7BAE8</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ContactNumber" id="ADEF3276-09A9-C977-5FC7-6C2F0DCFE4FE">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>DF8B1EBB-4D4F-E8B8-93E8-E2DFF009E496</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ModificationDate" id="72BC0172-8E14-694D-F93F-6C2EE7AB9963">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>35E6CF3F-359A-6D46-8DA2-068B242F9DEE</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CityKey" id="8B196226-1007-3A8C-DDF2-055E0521DE58">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>39A8165E-3204-DA49-7033-463ED8CB6207</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5182031-D013-C4E2-62C5-061D15BE1AD4" referredColumn="97E0B38D-BE1D-5C34-85D6-CFF4946E5F85"/>
+</associations>
+</Column>
+<Column name="AdministratorKey" id="D9338ECE-6C40-EBD6-020C-3CC0B4A93B25">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>2297F930-C3C5-DC4F-F368-0504B7520DE5</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8C84F0A-7CF0-11B4-79B9-64DF68A59DA2" referredColumn="81B398B5-AEE4-6DC0-AB14-0138C47380D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6DA437B-076D-967B-BEC5-C0392474B548" name="SalesPoint_PK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>C9BFD47C-BAB2-930F-922E-CADA656DD9F0</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD4E72E5-DDD0-2E0D-AF88-923E823E45E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFF2D41D-20D1-2D54-A5D7-BB2EEF33E1F3" name="SalesPoint_Address_UN">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>D10877EF-F953-27DD-783E-51813A063D42</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B173D238-5452-5886-A2B6-207DF6F223EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CFDBFC2-8703-C228-C365-EDDC4DCB6830" name="SalesPoint_Administrator_FK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>C53587E4-45D0-9B49-6DE3-0339BA93D7F7</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9338ECE-6C40-EBD6-020C-3CC0B4A93B25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="620A6D64-7336-8DF9-0CE7-1DD2778AF330" name="SalesPoint_City_FK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>896CEF02-DC84-754C-07CE-D16D76FA0FC1</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B196226-1007-3A8C-DDF2-055E0521DE58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

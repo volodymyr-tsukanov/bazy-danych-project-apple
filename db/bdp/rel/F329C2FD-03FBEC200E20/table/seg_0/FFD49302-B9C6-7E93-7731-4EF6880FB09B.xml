@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFD49302-B9C6-7E93-7731-4EF6880FB09B" name="SalesTerritory">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>53F9F9F6-19F6-C3CA-76C5-FAB162604EB0</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SalesTerritoryKey" id="480A1910-DDF3-B8C4-17AB-1EBBBE8F27CE">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>220FCC3D-BF66-41F9-4F63-754616E1979C</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="05881033-0E78-B192-9C7E-1493E394041F">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>59A59A99-6BF7-C41D-3E6D-078D79D27A88</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="483FFD09-AC52-CDC8-FD3E-65B1CBC8F41C" name="SalesTerritory_PK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>E50FAF39-DB94-7994-1506-36976CFC0A21</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="480A1910-DDF3-B8C4-17AB-1EBBBE8F27CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="834B22A6-8A98-492C-CCE7-D5BF8FECD351" name="SalesTerritory_Name_UN">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>D20B5686-73D1-4E4F-6549-6044DCD1DF04</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05881033-0E78-B192-9C7E-1493E394041F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C07CC1A4-2B7B-CC70-42C7-50B08E5DD86C" name="SalesTerritory_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:18:56 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="480A1910-DDF3-B8C4-17AB-1EBBBE8F27CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64320BA9-80C4-4A17-DA60-183A46B5FB18" name="SalesTerritory_IDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:39:05 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05881033-0E78-B192-9C7E-1493E394041F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

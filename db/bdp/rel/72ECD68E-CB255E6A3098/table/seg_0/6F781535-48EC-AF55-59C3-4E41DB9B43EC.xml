@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F781535-48EC-AF55-59C3-4E41DB9B43EC" name="Employee">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>C99770D8-70EF-017B-7282-F63939928DDD</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EmployeeKey" id="ADEA4655-2347-B85B-314C-9B39E407BD13">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>E62D7F1F-E48B-E83F-7DF7-93729E1E481B</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FirstName" id="632409FF-6027-2FB1-EB15-DFAB5133FB5E">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>AD3A584D-67A5-309D-AAEB-B53D6E2CAB9B</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lastname" id="3A2F01C1-4E91-CD7B-4B23-907D209C598A">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>B9F49FF5-0D13-75A4-F284-92DAE64E0B56</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="7C350E1D-03FA-2813-194B-F6520FD210FB">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>476EFC47-EA69-6FB5-C830-053FE5885031</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PhoneNumber" id="04600B41-7F35-961E-59DB-BC1DE63A4491">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>14668B7C-F15B-A00D-B04E-680EFFE27868</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SalesPointKey" id="147C1EA7-29AF-AE44-EB72-10F13B257480">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>CDAE9F0E-D62A-1CBB-0E36-B1E73BC60D76</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A663F58-CC5D-9D21-45BD-13F25A63109A" referredColumn="DD4E72E5-DDD0-2E0D-AF88-923E823E45E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5951F9C5-CFB2-CEF4-D88A-2E3211E2EBA9" name="Employee_PK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>34CF8B62-A5E2-B5F8-DD46-F20892792CB2</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADEA4655-2347-B85B-314C-9B39E407BD13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA40FE5C-89FA-7075-5563-19A232A8F9E3" name="Employee_Email_UN">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>4CDAEFF6-B876-EF63-E5A2-DDCC077F8C73</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C350E1D-03FA-2813-194B-F6520FD210FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE58E774-8159-B211-8751-0A60632266EC" name="Employee__PhoneNum_UN">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 18:30:15 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04600B41-7F35-961E-59DB-BC1DE63A4491"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A46F60DC-4334-9087-BA5B-099A24CB2FD3" name="Employee_SalesPoint_FK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-09 22:38:40 UTC</createdTime>
+<generatorID>EF503C08-E003-3453-489F-1ED5D884E9ED</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="147C1EA7-29AF-AE44-EB72-10F13B257480"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

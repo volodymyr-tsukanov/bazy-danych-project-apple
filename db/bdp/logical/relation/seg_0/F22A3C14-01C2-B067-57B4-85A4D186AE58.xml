@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OrderStatus_FK" directorySegmentName="seg_0" id="F22A3C14-01C2-B067-57B4-85A4D186AE58">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>66C585E5-AD66-CA0E-0E7C-1671ACD5AB13</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<sourcePk>DF8035DE-A149-72D8-BC4B-5D7A79D6504C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7958B92D-6CD2-5D4A-CAD6-E7EEFF14D5B5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>94DD2D18-5A71-4119-2082-65A1C9FE9A45</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

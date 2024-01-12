@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3741D5E5-710A-7B9B-259A-207A454E05D8" name="PaymentMethod">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>EDFEB0B6-5796-811E-AECB-7126FBE63775</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PaymentMethodKey" id="1EDDB1B3-3C69-A4AD-9CD0-8909D8915582">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>E1996F7F-8E12-B071-4921-64EA61835579</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="B1916E35-927E-DA85-12A0-AC894CE12057">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>6A7493F3-405F-B31C-1523-9FDA9A31A77A</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<sourceType>Manual</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31CDDED9-2707-9D68-D879-3B93FE345977" name="PaymentMethod_PK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>A34D4993-5DBA-F282-7FD6-B214D28012A2</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EDDB1B3-3C69-A4AD-9CD0-8909D8915582"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB63A407-4D9A-6F20-881D-F3D8100DD710" name="PaymentMethod_Name_UN">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 22:02:54 UTC</createdTime>
+<generatorID>F389E031-64E9-7F7A-DB06-DDAB28454C0B</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1916E35-927E-DA85-12A0-AC894CE12057"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F8A6FE3-EF01-6100-9870-2BF40D7B5DF3" name="PaymentMethod_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:22:58 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EDDB1B3-3C69-A4AD-9CD0-8909D8915582"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF7FFF1A-3DCB-274E-49CA-7964FB1D0DAA" name="PaymentMethod_IDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:39:53 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1916E35-927E-DA85-12A0-AC894CE12057"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SalesPoint_FK" directorySegmentName="seg_0" id="924CCC72-951E-D079-FCB5-B9B541BEC6FB">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>4FD946E3-C0AB-6A2F-2FCB-77423EE840D6</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<sourcePk>BE775C93-EF25-0830-0CB9-048F3E551671</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FDBD0D5F-1262-9698-8DED-25C30CBBCC97</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>94DD2D18-5A71-4119-2082-65A1C9FE9A45</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

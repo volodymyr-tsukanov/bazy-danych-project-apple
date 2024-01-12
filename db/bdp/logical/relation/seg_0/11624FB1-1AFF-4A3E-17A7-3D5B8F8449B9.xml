@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="City_FK" directorySegmentName="seg_0" id="11624FB1-1AFF-4A3E-17A7-3D5B8F8449B9">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>C047D204-691B-C587-75E9-32A427998397</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<sourcePk>42270088-F45F-0F6F-EB09-1606C3A99AEC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>32FB96DE-58A1-3178-9A04-333544B1E1D7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D9E9F67F-BE55-D621-6AB3-E7230B4497F8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
