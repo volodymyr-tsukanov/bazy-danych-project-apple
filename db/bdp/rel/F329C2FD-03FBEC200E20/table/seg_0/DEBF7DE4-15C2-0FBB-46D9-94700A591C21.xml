@@ -109,6 +109,16 @@
 <colUsage columnID="F25B2C9B-BA5C-1240-76E1-722CA5CCF474"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="88ADC91F-41FE-3D09-6593-D1371DEAA839" name="Product_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:27:02 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC69143D-D518-0D36-05CA-E252AD4F5455"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="FCDE2A22-98D5-7CB7-8BFB-3AEBE0E81CDB" name="ProductSubcategory_FK">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>

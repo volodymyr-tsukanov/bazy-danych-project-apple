@@ -83,6 +83,16 @@
 <colUsage columnID="2BE3B656-3914-4F98-7DE9-8AF77B5CC308"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="09F83C7E-2E66-0EED-6954-AA1965CE6AF8" name="City_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:17:10 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD77657F-CAA5-709E-3FAE-388085ABC93B"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="8A6EBE04-A711-1EBB-F78A-4A1B3B47A66D" name="Country_FK">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>

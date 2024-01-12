@@ -56,5 +56,15 @@
 <colUsage columnID="B65231B9-DCD7-661B-6220-508F658D36E6"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="94E2A33F-5872-B42F-5FF6-D73D9CAC4000" name="OrderStatus_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:22:41 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0AE6A1E-6ADD-8E41-4D96-91D1CC989540"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

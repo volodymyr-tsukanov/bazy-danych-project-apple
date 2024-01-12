@@ -56,5 +56,15 @@
 <colUsage columnID="05881033-0E78-B192-9C7E-1493E394041F"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="C07CC1A4-2B7B-CC70-42C7-50B08E5DD86C" name="SalesTerritory_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:18:56 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="480A1910-DDF3-B8C4-17AB-1EBBBE8F27CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

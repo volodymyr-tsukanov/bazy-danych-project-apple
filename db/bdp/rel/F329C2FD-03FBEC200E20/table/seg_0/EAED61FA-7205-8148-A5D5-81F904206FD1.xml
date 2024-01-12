@@ -68,5 +68,15 @@
 <colUsage columnID="6A455E43-56CF-05F9-880F-A8169ADD01B7"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="4A8648DB-2F8D-34FB-B8C2-D57DCDC7EE09" name="Refund_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:20:07 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A455E43-56CF-05F9-880F-A8169ADD01B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

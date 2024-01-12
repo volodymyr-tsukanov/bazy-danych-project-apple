@@ -71,6 +71,16 @@
 <colUsage columnID="A6F92161-AF57-4F16-B5CD-EFEF23506296"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="EBC09115-A587-9E2C-617A-93BCF26FDECB" name="SaleReport_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:23:29 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6F92161-AF57-4F16-B5CD-EFEF23506296"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="CBD1459D-D4A7-7B66-943A-C65F82AAD278" name="SalesPoint_FKv4">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>

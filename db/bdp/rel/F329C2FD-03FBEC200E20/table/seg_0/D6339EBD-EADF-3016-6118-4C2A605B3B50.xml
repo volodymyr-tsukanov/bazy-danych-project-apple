@@ -79,5 +79,15 @@
 <colUsage columnID="6590FE37-4027-8E1A-5BB3-2DC3507D1D49"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="C0E8CE30-8B02-8E88-B578-2CA8D0D8A6A2" name="Administrator_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:20:46 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="901D6DA9-E5C0-3E97-6EBC-8B60B893AE1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

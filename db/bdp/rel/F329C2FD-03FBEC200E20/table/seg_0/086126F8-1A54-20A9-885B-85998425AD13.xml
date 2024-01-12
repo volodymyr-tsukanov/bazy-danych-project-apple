@@ -87,6 +87,16 @@
 <colUsage columnID="A6D61CB0-12DE-50C3-9F8B-2480001C8098"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="E6B3028A-DE20-D5F2-AF8A-30A05BF9F343" name="Question_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:21:20 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6D61CB0-12DE-50C3-9F8B-2480001C8098"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="FB44B0CC-6CFC-3A0E-CF35-AC49DF4810E7" name="Customer_FKv1">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>

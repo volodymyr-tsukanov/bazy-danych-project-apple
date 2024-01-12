@@ -58,5 +58,15 @@
 <colUsage columnID="B1916E35-927E-DA85-12A0-AC894CE12057"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="9F8A6FE3-EF01-6100-9870-2BF40D7B5DF3" name="PaymentMethod_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:22:58 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EDDB1B3-3C69-A4AD-9CD0-8909D8915582"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

@@ -95,6 +95,16 @@
 <colUsage columnID="188E0925-4347-A584-2081-896D9025BB60"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="73176488-6F8B-FAA0-4394-0445629129DF" name="Country_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:18:31 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D375BF7-E870-B0B0-34B1-EB80ED1E7DB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="683B3F64-811E-C9F4-5534-D46CE9DBE039" name="SalesTerritory_FK">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>

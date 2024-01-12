@@ -131,6 +131,16 @@
 <colUsage columnID="D9022364-5C02-7BB0-7A54-2AC87DD62561"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="0A4703AA-B370-C2C7-A4B4-0D506C92D5BF" name="OrderDetail_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:30:17 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD52035D-B05A-FEB0-9878-6B165FC16824"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="2797DC6B-85E7-5911-9D25-BB17ABBA2049" name="OrderHeader_FK">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>

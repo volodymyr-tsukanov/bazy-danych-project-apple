@@ -91,6 +91,16 @@
 <colUsage columnID="30D04E33-7D44-D001-E5E2-1BB46A8B35A6"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="EFC351DA-03A6-8C58-3810-0527933223F9" name="Answear_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:21:39 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30D04E33-7D44-D001-E5E2-1BB46A8B35A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="FCE5D59B-83B4-0CF4-C0DF-44996E66EB05" name="Employee_FK">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>

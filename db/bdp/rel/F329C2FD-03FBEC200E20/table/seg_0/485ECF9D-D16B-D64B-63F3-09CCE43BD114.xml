@@ -118,6 +118,16 @@
 <colUsage columnID="44B22FCB-4EFF-8622-FA37-06702D75D339"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="E3978C90-7625-19EB-8261-B93D764B8F52" name="Employee_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:31:37 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38115203-6991-A205-EAEF-051FED40C335"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="821A5B8E-A29B-3443-12AA-0DA21EC45704" name="SalesPoint_FKv3">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>
