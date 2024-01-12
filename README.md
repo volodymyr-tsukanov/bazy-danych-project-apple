@@ -1,4 +1,4 @@
-# Re-apple
+# Pear
 Baza danych dla systemu sprzedaży produktów marki Apple</br>
 SQL; Oracle Database; Informatyka l stopień 3 semestr</br></br>
 
@@ -12,7 +12,7 @@ SQL; Oracle Database; Informatyka l stopień 3 semestr</br></br>
 ![Relational model](../rozdzial6/work/r6/Relational.png)
 
 
-## Team:
+## Team
 - [Karol 🧔‍](https://github.com/Meister226)
 - [Volodymyr 👨](https://github.com/volodymyr-tsukanov)
 - [Yana 👩](https://github.com/Yannssaaaa)
