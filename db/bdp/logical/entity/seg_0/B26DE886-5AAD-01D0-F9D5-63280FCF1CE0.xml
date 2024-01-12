@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B26DE886-5AAD-01D0-F9D5-63280FCF1CE0" name="SaleReport">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>E1CCE891-BC70-3D93-A286-0F73E924015F</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SaleReportKey" id="851CDD19-5D09-E643-A451-6B0C2FE466AA">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>A6F92161-AF57-4F16-B5CD-EFEF23506296</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="364ABAE6-86E1-6D8F-A913-99043F8DF323">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>D902A7D9-022A-B421-3E47-5EEE3CB03EB5</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="C42BE8E2-9025-3889-0B47-ADEAF4D410D4">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>5D5A9D21-F891-EFF5-93F7-E58B469B7ACE</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SalesPointKey" id="FC9183F4-729B-D209-4AB6-B44D167071CE">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>36E90A53-8D5F-C802-3D08-AF5A0B03DB3A</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<referedAttribute>690B5A29-CEE2-9CF0-7549-5154133E2923</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="83723E92-5C85-9C1F-912A-38CFD6F1C126" name="SaleReport PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>B72AA7C8-4B6D-16D8-A82A-89A4793AD76C</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>851CDD19-5D09-E643-A451-6B0C2FE466AA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

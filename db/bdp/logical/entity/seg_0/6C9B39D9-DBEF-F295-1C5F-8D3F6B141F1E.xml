@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C9B39D9-DBEF-F295-1C5F-8D3F6B141F1E" name="Answear">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>1F605C3F-A770-9CB7-355F-4BE5D093FE42</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AnswearKey" id="C4F3FD99-6ACB-F62D-AECD-776E39E835E9">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>30D04E33-7D44-D001-E5E2-1BB46A8B35A6</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Body" id="DB948FCD-A85D-5EDA-A453-676205C2EC4F">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>DEB62A97-4985-C487-B5B3-53B5C005D06A</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QuestionKey" id="608D4A8B-DE52-0FE0-E9FF-1F604F944510">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>BF5A3AAC-F6DA-FFC5-853C-7BB4748BD5AD</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<referedAttribute>67E01B77-A0D6-44E5-3FAE-A9E557B133D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SalesPointKey" id="644AB21D-9875-0B98-6EEF-202EA048E01B">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>D13DCE30-4D2B-4179-DF81-89FCD66E39BD</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>690B5A29-CEE2-9CF0-7549-5154133E2923</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeKey" id="CFA31A48-94B0-80D3-2983-4FD7D36CC094">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>0AD03CC4-59A4-7F9A-8626-C26A9D2B4A95</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<referedAttribute>A76B5EA9-DC46-CA5D-BE74-95E242744DBC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="91CF5640-1EDC-6EF8-52E3-86A5D77A36BE" name="Answear PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>2E2466B3-6591-ABB1-C1FC-452063E5D7A5</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C4F3FD99-6ACB-F62D-AECD-776E39E835E9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

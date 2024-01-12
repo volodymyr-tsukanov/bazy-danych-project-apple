@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A04D6924-4A3B-1184-85B4-9AAECA464AC6" name="ProductCategory">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>F59069F8-7721-C7E3-B61F-C9735CBB89CF</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ProductCategoryKey" id="80268284-6F73-C4EC-61DF-C3D974F77551">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>053969C5-9355-F9D5-04F9-5FC7F2DA9DCE</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="FB244EF8-08B0-141F-E7B0-8E10473BAFB7">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>727FE2C0-CD8C-191B-1237-92E6A1274A96</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D1EDD0B-E757-F1F0-419E-0AFB5140D4DB" name="ProductCategory PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>1C1E1A59-DB93-2B2F-4EB4-71F6E1A5965B</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>80268284-6F73-C4EC-61DF-C3D974F77551</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C4550FD3-90E6-DF3B-1093-5731B47BEDE2" name="ProductCategory Name UN">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>DE79E5D2-03EF-5FF4-D6CE-E2B750C26ED6</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>FB244EF8-08B0-141F-E7B0-8E10473BAFB7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

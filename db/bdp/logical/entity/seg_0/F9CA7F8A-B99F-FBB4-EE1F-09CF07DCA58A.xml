@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9CA7F8A-B99F-FBB4-EE1F-09CF07DCA58A" name="Country">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>E69EEBAA-E854-4A82-E9BD-6E274FEBD5B4</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CountryKey" id="F89BB70B-700B-4C8D-FEDC-F0B38E2FDEC8">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>2D375BF7-E870-B0B0-34B1-EB80ED1E7DB6</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="1F68A919-FD98-D1C2-057A-28EF07DD5BF1">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>188E0925-4347-A584-2081-896D9025BB60</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Code" id="5DD8E759-B69B-4A5E-AB89-B4F6266ABE81">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>807CFC7F-05A4-D2DB-598F-272E427EAFA0</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SalesTerritoryKey" id="EB6D6A13-C61C-380E-7DA3-45783D39035A">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>A1F991D1-41B1-D0D4-C0F9-2241199C5567</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<referedAttribute>1C7591AA-13C0-086A-2172-C3694C235032</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C9627EB5-3A3F-6B15-FEAB-C81FF28B090D" name="Country PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>8B95CA33-51D6-368C-3C1C-DD602972EA0E</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F89BB70B-700B-4C8D-FEDC-F0B38E2FDEC8</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3BE7C2D7-D1B7-9221-FFAA-2F3DCC4F07F8" name="Country Code UN">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>2810FF39-2F47-7714-105B-A0DB09D027D6</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>5DD8E759-B69B-4A5E-AB89-B4F6266ABE81</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="53C8A03E-D0C2-0937-3C4A-C7CD076E2999" name="Country Name UN">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>0E5E4F4B-D6B1-E90D-5C53-E739A63D739F</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>1F68A919-FD98-D1C2-057A-28EF07DD5BF1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
