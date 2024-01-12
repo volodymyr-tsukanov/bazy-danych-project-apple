@@ -97,6 +97,15 @@
 <colUsage columnID="A6D61CB0-12DE-50C3-9F8B-2480001C8098"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="1D748EED-1B84-C911-5A98-A87DD5310BDE" name="Question_IDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:46:52 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E503790B-68BF-BFD7-CDB0-1624868EAADF"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="FB44B0CC-6CFC-3A0E-CF35-AC49DF4810E7" name="Customer_FKv1">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>

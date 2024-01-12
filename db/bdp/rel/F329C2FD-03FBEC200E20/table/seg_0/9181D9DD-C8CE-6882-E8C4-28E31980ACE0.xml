@@ -141,6 +141,18 @@
 <colUsage columnID="AD52035D-B05A-FEB0-9878-6B165FC16824"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="ECC8F813-E2E6-E251-28AB-A78C8694C7DD" name="OrderDetail_IDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:44:43 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="298B022A-0052-9C22-F275-7838A03A2542"/>
+<colUsage columnID="FBBB81EC-FC5E-0FBC-69BF-9510F0E25934"/>
+<colUsage columnID="B067598D-761A-B688-D154-A72F2A72DFD4"/>
+<colUsage columnID="3D11DEF3-0C68-AF0A-2EB7-D6E490242B54"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="2797DC6B-85E7-5911-9D25-BB17ABBA2049" name="OrderHeader_FK">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>

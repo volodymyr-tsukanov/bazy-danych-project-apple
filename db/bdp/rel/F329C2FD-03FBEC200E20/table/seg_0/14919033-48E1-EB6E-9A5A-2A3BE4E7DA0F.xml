@@ -66,5 +66,14 @@
 <colUsage columnID="D0AE6A1E-6ADD-8E41-4D96-91D1CC989540"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="D92B1E29-AB37-7F64-8A7E-9A3E45F4B22B" name="OrderStatus_IDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:39:35 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B65231B9-DCD7-661B-6220-508F658D36E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

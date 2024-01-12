@@ -105,6 +105,16 @@
 <colUsage columnID="2D375BF7-E870-B0B0-34B1-EB80ED1E7DB6"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="B7999CC4-2FEB-2057-32A8-02A585EA3503" name="Country_IDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:38:17 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="807CFC7F-05A4-D2DB-598F-272E427EAFA0"/>
+<colUsage columnID="188E0925-4347-A584-2081-896D9025BB60"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="683B3F64-811E-C9F4-5534-D46CE9DBE039" name="SalesTerritory_FK">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>

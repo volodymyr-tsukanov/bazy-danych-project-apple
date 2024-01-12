@@ -119,6 +119,17 @@
 <colUsage columnID="0CDED192-2665-B9EA-CA2D-2724B4F783F9"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="0F0D17D1-E925-E9EC-A397-7D62D8336FE4" name="SalesPoint_IDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:43:25 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51E15B40-31DF-A799-0C46-D28A065DC832"/>
+<colUsage columnID="914A0DFD-D0C2-744F-376E-3B69E6F3F65D"/>
+<colUsage columnID="84AB2A4B-25DB-9E6F-B4FE-1A8920398213" sortOrder="DESC"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="6FF466D5-3ED5-2179-8E8B-6B20BB6B8966" name="Administrator_FKv1">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>

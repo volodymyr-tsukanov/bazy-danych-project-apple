@@ -81,6 +81,15 @@
 <colUsage columnID="F6D4EF62-F340-994E-8448-E91091B09182"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="1D437CE9-1792-8534-EE3F-9B23161EB9B4" name="ProductSubcategory_IDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:41:12 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7B0C7EF-5361-5E54-AD3A-BC2D97B078C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="263C5858-5EDA-C77D-6AED-C9146D453893" name="ProductCategory_FK">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>

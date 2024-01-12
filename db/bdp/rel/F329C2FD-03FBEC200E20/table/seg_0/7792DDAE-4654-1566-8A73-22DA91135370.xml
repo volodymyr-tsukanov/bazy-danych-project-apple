@@ -93,6 +93,16 @@
 <colUsage columnID="AD77657F-CAA5-709E-3FAE-388085ABC93B"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="E186BC84-6DC1-366F-9B1D-ABCF3F1CF200" name="City_IDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:37:43 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BE3B656-3914-4F98-7DE9-8AF77B5CC308"/>
+<colUsage columnID="457A8C42-DE02-ABA9-7656-DFE63C932869"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="8A6EBE04-A711-1EBB-F78A-4A1B3B47A66D" name="Country_FK">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>

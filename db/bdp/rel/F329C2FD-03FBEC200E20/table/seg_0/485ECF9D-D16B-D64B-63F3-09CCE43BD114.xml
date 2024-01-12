@@ -128,6 +128,18 @@
 <colUsage columnID="38115203-6991-A205-EAEF-051FED40C335"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="DCA19F0D-5E66-9E5A-37FA-078739DF726D" name="Employee_IDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:41:51 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44B22FCB-4EFF-8622-FA37-06702D75D339"/>
+<colUsage columnID="1726B65E-A7EC-E55E-C3CD-216D8363DA8D"/>
+<colUsage columnID="0E6B566B-F060-8875-12A4-D65028138889"/>
+<colUsage columnID="4F109F1F-FD8F-DCF1-91FC-DB160363F4EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="821A5B8E-A29B-3443-12AA-0DA21EC45704" name="SalesPoint_FKv3">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>

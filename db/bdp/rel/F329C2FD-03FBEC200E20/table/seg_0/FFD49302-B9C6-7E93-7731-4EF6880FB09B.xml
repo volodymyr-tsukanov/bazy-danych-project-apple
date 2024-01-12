@@ -66,5 +66,14 @@
 <colUsage columnID="480A1910-DDF3-B8C4-17AB-1EBBBE8F27CE"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="64320BA9-80C4-4A17-DA60-183A46B5FB18" name="SalesTerritory_IDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:39:05 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05881033-0E78-B192-9C7E-1493E394041F"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

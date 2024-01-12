@@ -81,6 +81,16 @@
 <colUsage columnID="A6F92161-AF57-4F16-B5CD-EFEF23506296"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="9EBA984B-BDA9-D189-87EF-A6DF17013ECA" name="SaleReport_IDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:40:39 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D5A9D21-F891-EFF5-93F7-E58B469B7ACE" sortOrder="DESC"/>
+<colUsage columnID="D902A7D9-022A-B421-3E47-5EEE3CB03EB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="CBD1459D-D4A7-7B66-943A-C65F82AAD278" name="SalesPoint_FKv4">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>

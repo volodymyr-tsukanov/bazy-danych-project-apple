@@ -169,6 +169,17 @@
 <colUsage columnID="89B930FA-5934-91EE-B66D-FEBB92CF1FA2"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="213DCB52-A65A-6B1C-62FE-EA69A0341C4F" name="OrderHeader_IDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:51:31 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9E69F1F-9352-9B67-6131-C3CC7D140D03" sortOrder="DESC"/>
+<colUsage columnID="9B0FD32C-EECD-6E20-3398-D9B508259D9F" sortOrder="DESC"/>
+<colUsage columnID="1D30A581-5005-87AE-30B6-1069753B458B"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="C1D9171C-38FD-6F8F-1B0A-2F18F5DA6476" name="Country_FKv1">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>

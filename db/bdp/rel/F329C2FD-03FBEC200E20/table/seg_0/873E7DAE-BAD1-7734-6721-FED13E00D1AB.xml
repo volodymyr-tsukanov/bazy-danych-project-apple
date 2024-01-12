@@ -192,6 +192,22 @@
 <colUsage columnID="DF0B17BB-7E7F-8C61-C091-8BCC1362045C"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="3E9B616D-DF5E-9637-2818-8F53B328FC63" name="Customer_IDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 20:49:13 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF58586A-C087-0EB8-5853-BCD8BF1B9C27"/>
+<colUsage columnID="DD9710C3-370F-893B-0491-FC73D6802AC3"/>
+<colUsage columnID="91FC5724-EA14-C347-8A1A-0AC8A8A7868E"/>
+<colUsage columnID="E207F1EC-DDCF-947D-0BB3-631F33B4D7B6"/>
+<colUsage columnID="5C31C02F-827A-091E-BDEC-120E459014AC"/>
+<colUsage columnID="6E843708-B139-5C77-73E0-68E0350DF3FD"/>
+<colUsage columnID="C6C1A841-E89A-05D4-7B39-89B12BFFED99" sortOrder="DESC"/>
+<colUsage columnID="B6721E60-D063-389C-D6E2-46B20B062E90" sortOrder="DESC"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="66B76121-D4CB-D2F8-17BB-6D79B986A46A" name="Administrator_FK">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-11 22:02:54 UTC</createdTime>
