@@ -2,14 +2,14 @@
 Baza danych dla systemu sprzedaży produktów marki Apple</br>
 SQL; Oracle Database; Informatyka l stopień 3 semestr</br></br>
 
-![Re-apple icon](../icon/icon/re-apple.png)
+![Re-apple icon](icon/re-apple.png)
 
 
 ## Logical database model
-![Logical model](../rozdzial5/work/r5/Logical.png)
+![Logical model](work/r5/Logical.png)
 
 ## Relational database model
-![Relational model](../rozdzial6/work/r6/Relational.png)
+![Relational model](work/r6/Relational.png)
 
 
 ## Team
