@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9838D12A-3F02-ECA0-34CC-E947C6D78A6C" name="DeliveryMethod">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>E0A620F9-C92C-8113-6071-E430A16F129D</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="5A8B4DB2-3AD6-FF10-FB08-4314D5DDF8C3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B08E2024-51AB-ED4E-F327-07F670FDF938" name="DeliveryMethod PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>AA2A9640-7AD4-7A77-C616-042F0242870E</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="5A8B4DB2-3AD6-FF10-FB08-4314D5DDF8C3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+<identifier id="29694F95-38C5-4FE6-3524-A67EA0669FE2" name="DeliveryMethod Name UN">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>10BBCECD-05A1-29C4-036E-A4D640EC8B54</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="5A8B4DB2-3AD6-FF10-FB08-4314D5DDF8C3" value="true"/>
+</engineerTo>
+</identifier>
+</identifiers>
+</Entity>

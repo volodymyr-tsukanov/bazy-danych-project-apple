@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ProductCategory_FK" directorySegmentName="seg_0" id="861605FB-0246-CB50-1C21-632832283565">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-12 21:00:26 UTC</createdTime>
+<generatorID>89AE33AF-231E-5016-29D8-51D1711283BB</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="5A8B4DB2-3AD6-FF10-FB08-4314D5DDF8C3" value="true"/>
+</engineerTo>
+<sourcePk>8D1EDD0B-E757-F1F0-419E-0AFB5140D4DB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A04D6924-4A3B-1184-85B4-9AAECA464AC6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>11791072-7834-D2C5-646B-A173581A0E9D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
