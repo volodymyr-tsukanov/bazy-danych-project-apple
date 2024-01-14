@@ -1,2 +1,7 @@
 # Rozdział 6
-Fizyczny model bazy danych
+## Overview
+Database physical model
+![Physical model](work/r6/Relational.png)
+
+## Instruments
+SQL Data Modeller
