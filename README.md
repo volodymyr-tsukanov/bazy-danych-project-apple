@@ -1,3 +1,7 @@
 # Rozdział 4
-SQL Data Modeller</br>
+## Overview
 Database logical model (entities and relations)
+![Logical model](work/r4/Logical.png)
+
+## Instruments
+SQL Data Modeller
