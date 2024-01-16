@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8BEC19B3-BBCC-F2B9-1C26-F5671FC712BB" containerWithKeyObject="AD67A86E-3260-0DFD-AF51-42DF1EB06B21" localFKIndex="D9E49BBE-6898-7CA8-A709-9E681CB99D07" name="DeliveryMethod_FK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>CD05C3EF-5E20-CDE8-4B36-F099FA1D6F19</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<referredTableLongName>DeliveryMethod</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F0E5A5BC-9EF3-2AE0-831B-0BDA3235EFAE</referredTableID>
+<keyObject>3F00B806-FA6B-71F1-C5AF-8AC212397DAA</keyObject>
+<referredKeyID>3F00B806-FA6B-71F1-C5AF-8AC212397DAA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DeliveryMethodKey</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
