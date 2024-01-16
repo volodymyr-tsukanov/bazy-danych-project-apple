@@ -4,13 +4,13 @@ SQL; Oracle Database; Informatyka l stopień 3 semestr</br></br>
 
 ![Re-apple icon](icon/re-apple.png)
 
+![Project script](work/Skrypt.pdf)
 
 ## Logical database model
 ![Logical model](work/r5/Logical.png)
 
 ## Relational database model
 ![Relational model](work/r6/Relational.png)
-
 
 ## Team
 - [Karol 🧔‍](https://github.com/Meister226)
