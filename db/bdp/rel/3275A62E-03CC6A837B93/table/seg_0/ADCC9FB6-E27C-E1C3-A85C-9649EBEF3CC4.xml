@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADCC9FB6-E27C-E1C3-A85C-9649EBEF3CC4" name="ProductCategory">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>E111989F-6817-F535-2E96-D1D17D56AFA7</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProductCategoryKey" id="A95C0316-D44A-A458-782E-9110B9567D2F">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>9938A2CE-156B-0E11-D05F-B3737893FA79</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="BEF1F707-20A2-452F-A722-D1AC20E502AB">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>B933D3B2-DAD1-3700-D466-7CBE45266A5E</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15EC3C9D-2251-A2D6-B9FF-1380F5979C4C" name="ProductCategory_PK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>275EDA01-661F-C976-52BA-2F962DB0BEFF</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A95C0316-D44A-A458-782E-9110B9567D2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E1C30A9-778A-F963-3C39-353F5BFFF6DC" name="ProductCategory_Name_UN">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>9DA2C012-3E42-6197-EE7E-5B0571932440</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEF1F707-20A2-452F-A722-D1AC20E502AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

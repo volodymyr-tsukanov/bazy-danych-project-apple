@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B05BA131-0D93-D612-9F86-661754A77AA7" name="SalesPoint">
+<createdBy>student</createdBy>
+<createdTime>2023-10-17 08:17:56 UTC</createdTime>
+<ownerDesignName>bazka</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SalesPointKey" id="0158F247-ADE4-DD65-81C5-BC0797607628">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:47:38 UTC</createdTime>
+<ownerDesignName>bazka</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="04B3EAD1-B7CA-E2EE-78A7-E49A09F7BAE8">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-24 10:42:34 UTC</createdTime>
+<ownerDesignName>bazka</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ContactNumber" id="DF8B1EBB-4D4F-E8B8-93E8-E2DFF009E496">
+<createdBy>student</createdBy>
+<createdTime>2023-10-24 08:16:01 UTC</createdTime>
+<ownerDesignName>bazka</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ModificationDate" id="35E6CF3F-359A-6D46-8DA2-068B242F9DEE">
+<createdBy>student</createdBy>
+<createdTime>2023-10-24 08:15:37 UTC</createdTime>
+<ownerDesignName>bazka</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CityKey" id="39A8165E-3204-DA49-7033-463ED8CB6207">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:45:09 UTC</createdTime>
+<generatorID>896CEF02-DC84-754C-07CE-D16D76FA0FC1</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+</engineerTo>
+<referedAttribute>2C93C47E-054F-EF39-768A-6D3F05E970ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AdministratorKey" id="2297F930-C3C5-DC4F-F368-0504B7520DE5">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:52:26 UTC</createdTime>
+<generatorID>C53587E4-45D0-9B49-6DE3-0339BA93D7F7</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+</engineerTo>
+<referedAttribute>6A271DCA-278B-794B-6384-E7B8A767218E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C9BFD47C-BAB2-930F-922E-CADA656DD9F0" name="SalesPoint PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:47:46 UTC</createdTime>
+<ownerDesignName>bazka</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>0158F247-ADE4-DD65-81C5-BC0797607628</newElementsIDs>
+<usedAttributes>
+<attributeRef>0158F247-ADE4-DD65-81C5-BC0797607628</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D10877EF-F953-27DD-783E-51813A063D42" name="SalesPoint_Address_UN">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-24 10:43:43 UTC</createdTime>
+<ownerDesignName>bazka</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+</engineerTo>
+<newElementsIDs>04B3EAD1-B7CA-E2EE-78A7-E49A09F7BAE8</newElementsIDs>
+<usedAttributes>
+<attributeRef>04B3EAD1-B7CA-E2EE-78A7-E49A09F7BAE8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

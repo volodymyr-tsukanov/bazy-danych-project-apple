@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D76730EC-918B-141F-0D1E-148086351615" name="SalesTerritory">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>53F9F9F6-19F6-C3CA-76C5-FAB162604EB0</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SalesTerritoryKey" id="B3BC2DA0-9F8C-0E02-18C8-ED57B3875595">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>220FCC3D-BF66-41F9-4F63-754616E1979C</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="B4D20836-CD9A-3744-6BF6-3F1E8D82B2C9">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>59A59A99-6BF7-C41D-3E6D-078D79D27A88</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4B879A5-3C35-26BC-8331-E532796C6C24" name="SalesTerritory_PK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>E50FAF39-DB94-7994-1506-36976CFC0A21</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3BC2DA0-9F8C-0E02-18C8-ED57B3875595"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67B4A2CE-448A-3058-D870-106EDA806E54" name="SalesTerritory_Name_UN">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>D20B5686-73D1-4E4F-6549-6044DCD1DF04</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4D20836-CD9A-3744-6BF6-3F1E8D82B2C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

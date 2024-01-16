@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44249E44-D7BC-B33B-01B4-9C23B180C2E6" name="SalesPoint">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>B05BA131-0D93-D612-9F86-661754A77AA7</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SalesPointKey" id="E8B88091-4BCA-6409-8048-2F22E9F4C38E">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>0158F247-ADE4-DD65-81C5-BC0797607628</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="598CC501-27C7-C836-74AC-34A95B497B47">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>04B3EAD1-B7CA-E2EE-78A7-E49A09F7BAE8</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ContactNumber" id="1130D21E-27A1-8D64-2D32-06033C3008AE">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>DF8B1EBB-4D4F-E8B8-93E8-E2DFF009E496</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ModificationDate" id="BEF4FDBE-43D7-8B35-AA9B-9A1D8ADB0DFC">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>35E6CF3F-359A-6D46-8DA2-068B242F9DEE</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CityKey" id="37EAABF1-9C9D-5B9C-0DC8-3FA797AF86F5">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>39A8165E-3204-DA49-7033-463ED8CB6207</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B1D75D0-8F9C-86B7-F72B-1C79EA8171A0" referredColumn="ADCAA93A-D683-9615-468F-EB4350243EAD"/>
+</associations>
+</Column>
+<Column name="AdministratorKey" id="808B98B5-E377-FE86-6581-E225F955C6D7">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>2297F930-C3C5-DC4F-F368-0504B7520DE5</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="591F2024-72F3-3351-DA66-EFB71CF17908" referredColumn="10E090CB-75F1-5712-07B4-A308B191F434"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8874AFB5-AC0B-A0EB-1D14-376C53902C56" name="SalesPoint_PK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>C9BFD47C-BAB2-930F-922E-CADA656DD9F0</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8B88091-4BCA-6409-8048-2F22E9F4C38E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E618CD2-40BD-CF1A-18F9-567FEC7FC850" name="SalesPoint_Address_UN">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>D10877EF-F953-27DD-783E-51813A063D42</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="598CC501-27C7-C836-74AC-34A95B497B47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A3DD494-ABA5-E8E8-911B-BEE556F74362" name="Administrator_FKv1">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>C53587E4-45D0-9B49-6DE3-0339BA93D7F7</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="808B98B5-E377-FE86-6581-E225F955C6D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F70B64A-0683-580A-9245-BC7393BB5C73" name="City_FKv1">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>896CEF02-DC84-754C-07CE-D16D76FA0FC1</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37EAABF1-9C9D-5B9C-0DC8-3FA797AF86F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
