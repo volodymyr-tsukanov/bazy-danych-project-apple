@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13D1A63B-20F0-1A91-981A-4ED36E5E2553" name="OrderStatus">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>39FDB206-AE72-58FA-2588-29B836F58B19</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrderStatusKey" id="0FA82590-FA24-8230-839D-900E9C3B9414">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>499D6085-C3BA-8D54-66C0-E4988457988B</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="40C1C09D-86AB-2C01-4C39-D5A40A659809">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>16FB46C2-D39A-C782-A9C5-42165879719E</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="853FE8BE-AAF7-2912-8144-54F31E90C5EA" name="OrderStatus_PK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>E8033997-C89E-46AD-AB05-C79B1A03220E</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FA82590-FA24-8230-839D-900E9C3B9414"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B1B6EF4-61D9-902E-1BD3-F26F63D32FFE" name="OrderStatus_Name_UN">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>8AC3548E-0625-0C1F-C7FC-C96CC1F30669</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40C1C09D-86AB-2C01-4C39-D5A40A659809"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

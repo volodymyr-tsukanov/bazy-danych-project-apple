@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C99770D8-70EF-017B-7282-F63939928DDD" name="Employee">
+<createdBy>student</createdBy>
+<createdTime>2023-10-17 08:15:55 UTC</createdTime>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EmployeeKey" id="E62D7F1F-E48B-E83F-7DF7-93729E1E481B">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:47:16 UTC</createdTime>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="AD3A584D-67A5-309D-AAEB-B53D6E2CAB9B">
+<createdBy>karol</createdBy>
+<createdTime>2023-10-23 22:02:17 UTC</createdTime>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Lastname" id="B9F49FF5-0D13-75A4-F284-92DAE64E0B56">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-24 10:46:21 UTC</createdTime>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="476EFC47-EA69-6FB5-C830-053FE5885031">
+<createdBy>student</createdBy>
+<createdTime>2023-10-24 08:30:43 UTC</createdTime>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PhoneNumber" id="14668B7C-F15B-A00D-B04E-680EFFE27868">
+<createdBy>student</createdBy>
+<createdTime>2023-10-24 08:40:57 UTC</createdTime>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SalesPointKey" id="CDAE9F0E-D62A-1CBB-0E36-B1E73BC60D76">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:47:47 UTC</createdTime>
+<generatorID>EF503C08-E003-3453-489F-1ED5D884E9ED</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<referedAttribute>0158F247-ADE4-DD65-81C5-BC0797607628</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="34CF8B62-A5E2-B5F8-DD46-F20892792CB2" name="Employee PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:47:29 UTC</createdTime>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E62D7F1F-E48B-E83F-7DF7-93729E1E481B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="4CDAEFF6-B876-EF63-E5A2-DDCC077F8C73" name="Employee_Email_UN">
+<createdBy>student</createdBy>
+<createdTime>2023-10-24 08:31:37 UTC</createdTime>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<newElementsIDs>476EFC47-EA69-6FB5-C830-053FE5885031</newElementsIDs>
+<usedAttributes>
+<attributeRef>476EFC47-EA69-6FB5-C830-053FE5885031</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="628DAE47-006C-DA4E-D224-C29B670ECC32" name="PhoneNumber">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 18:24:55 UTC</createdTime>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<newElementsIDs>14668B7C-F15B-A00D-B04E-680EFFE27868</newElementsIDs>
+<usedAttributes>
+<attributeRef>14668B7C-F15B-A00D-B04E-680EFFE27868</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

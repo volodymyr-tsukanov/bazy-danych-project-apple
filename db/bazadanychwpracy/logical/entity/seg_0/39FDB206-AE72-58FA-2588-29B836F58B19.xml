@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39FDB206-AE72-58FA-2588-29B836F58B19" name="OrderStatus">
+<createdBy>student</createdBy>
+<createdTime>2023-10-17 08:01:44 UTC</createdTime>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OrderStatusKey" id="499D6085-C3BA-8D54-66C0-E4988457988B">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:51:28 UTC</createdTime>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="16FB46C2-D39A-C782-A9C5-42165879719E">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:51:38 UTC</createdTime>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E8033997-C89E-46AD-AB05-C79B1A03220E" name="OrderStatus PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:51:37 UTC</createdTime>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>499D6085-C3BA-8D54-66C0-E4988457988B</newElementsIDs>
+<usedAttributes>
+<attributeRef>499D6085-C3BA-8D54-66C0-E4988457988B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="8AC3548E-0625-0C1F-C7FC-C96CC1F30669" name="Name">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-11 18:24:12 UTC</createdTime>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+</engineerTo>
+<newElementsIDs>16FB46C2-D39A-C782-A9C5-42165879719E</newElementsIDs>
+<usedAttributes>
+<attributeRef>16FB46C2-D39A-C782-A9C5-42165879719E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

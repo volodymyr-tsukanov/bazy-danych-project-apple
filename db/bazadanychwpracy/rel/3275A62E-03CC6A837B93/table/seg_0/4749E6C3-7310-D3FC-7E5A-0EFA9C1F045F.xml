@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4749E6C3-7310-D3FC-7E5A-0EFA9C1F045F" name="ProductSubcategory">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>7C89478D-8CF3-EC06-2612-9D8057581EC9</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProductSubcategoryKey" id="5DA13EF0-7A33-AB73-23F3-3D2151A1A0DC">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>07014949-3281-4ED2-F60B-EDE23EE7ECBF</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="E4E9EC38-8716-2E2F-1075-77A92CA1869D">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>3CB44043-A416-DBE0-BFC6-B4CAA10C4005</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductCategory_ProductCategoryKey" id="675D952D-00A6-21B2-C92D-F99A952495AA">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>FE4D6A3A-DE9C-7257-F44D-FAE7605E4ECE</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDE17975-E760-668A-95EE-AF1641BB40B8" referredColumn="A95C0316-D44A-A458-782E-9110B9567D2F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="262F2D50-D15C-0C3B-3DAD-78EF42A219BF" name="ProductSubcategory_PK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>BD3482B9-7710-43FB-78AA-846940428D92</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DA13EF0-7A33-AB73-23F3-3D2151A1A0DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E3AD4B4-8A10-D933-7343-D46569DC98A0" name="ProductSubcategory_Name_UN">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>35B2DC38-8D4B-9653-9681-775478044E47</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4E9EC38-8716-2E2F-1075-77A92CA1869D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35A9410C-005D-1863-C057-92A1BED2F658" name="ProductSubcategory_ProductCategory_FK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>10F75AB2-4A08-10C8-91CE-E9DBC79BA2FE</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="675D952D-00A6-21B2-C92D-F99A952495AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

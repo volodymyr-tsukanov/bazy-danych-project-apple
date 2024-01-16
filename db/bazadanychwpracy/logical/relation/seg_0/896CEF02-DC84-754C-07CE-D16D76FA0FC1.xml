@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SalesPoint City FK" directorySegmentName="seg_0" id="896CEF02-DC84-754C-07CE-D16D76FA0FC1">
+<createdBy>student</createdBy>
+<createdTime>2023-10-17 08:18:18 UTC</createdTime>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+</engineerTo>
+<sourcePk>FC26A217-0CE4-C68A-6579-50CCBC27C904</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4F4230F6-9DB6-C505-227A-37058F17F4BB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B05BA131-0D93-D612-9F86-661754A77AA7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="083DA15A-E014-EC9E-1BE1-6F6459988801" name="Country">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>E919A297-E7BF-3DFF-4385-556FE05A72DE</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CountryKey" id="71FF0E01-A75B-DD9B-BD04-A5723C7E94A9">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>DC51657F-8DDF-FF24-E933-D5798A7A71FD</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="55A126F1-0182-D6D3-E0C2-8BFFCD65ED60">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>15B21990-D6DC-B3D7-277E-9A4676A362EA</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Code" id="DB2CB5BE-DFDB-3E66-F25D-35F3F18C9DB4">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>6430B5AE-5205-BE46-C8B5-3796C0E5E368</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SalesTerritory_SalesTerritoryKey" id="F532C48C-1A3F-0926-4FE7-1A404D95D61F">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>8FAD635F-6FBC-B5C2-532F-D29E113AB094</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E735252-E8B4-2585-B6B0-D070FF1D3546" referredColumn="B3BC2DA0-9F8C-0E02-18C8-ED57B3875595"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6AB35737-7C33-8D22-D37A-8EABBCC2BE00" name="Country_PK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>D9662E9C-C03E-D782-139F-07ADDA181729</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71FF0E01-A75B-DD9B-BD04-A5723C7E94A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CED19A6F-10D4-E4D1-3B64-00F4A6EDA3A3" name="Country_Code_UN">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>14A17547-3292-91EC-4AF7-8C2D791C8DEE</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB2CB5BE-DFDB-3E66-F25D-35F3F18C9DB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AD5FBA7-9083-D729-357F-8A7E1A12AE90" name="Country_Name_UN">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>2B2195AA-3710-ABA1-A6EC-2E9CB53E0B1B</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55A126F1-0182-D6D3-E0C2-8BFFCD65ED60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E6D086B-54C7-7B43-6A12-B216C0933C4F" name="Country_SalesTerritory_FK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>EE1A9B8E-2B1A-C75D-BDFD-BAA74C8F034F</generatorID>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F532C48C-1A3F-0926-4FE7-1A404D95D61F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

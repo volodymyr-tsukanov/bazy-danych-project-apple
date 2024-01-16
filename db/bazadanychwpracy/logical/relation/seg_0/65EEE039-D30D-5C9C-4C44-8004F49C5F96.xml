@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Answear Employee FK" directorySegmentName="seg_0" id="65EEE039-D30D-5C9C-4C44-8004F49C5F96">
+<createdBy>student</createdBy>
+<createdTime>2023-10-24 08:22:22 UTC</createdTime>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+<item key="F329C2FD-E02A-DAEF-C5A8-03FBEC200E20" value="true"/>
+</engineerTo>
+<sourcePk>34CF8B62-A5E2-B5F8-DD46-F20892792CB2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C99770D8-70EF-017B-7282-F63939928DDD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A787A436-9C60-F1F6-86AD-FF468F67E100</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

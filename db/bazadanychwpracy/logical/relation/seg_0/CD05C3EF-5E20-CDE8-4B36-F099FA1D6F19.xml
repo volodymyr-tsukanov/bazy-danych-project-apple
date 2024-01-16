@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OrderHeader DeliveryMethod FK" directorySegmentName="seg_0" id="CD05C3EF-5E20-CDE8-4B36-F099FA1D6F19">
+<createdBy>student</createdBy>
+<createdTime>2023-10-17 08:01:24 UTC</createdTime>
+<ownerDesignName>bazadanychwpracy</ownerDesignName>
+<engineerTo>
+<item key="72ECD68E-9CE2-3191-9793-CB255E6A3098" value="true"/>
+</engineerTo>
+<sourcePk>03694551-AB2C-AD22-E876-25D69962F50D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5E004B45-94EC-1689-6AA0-B09100EE5260</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2120BA58-CDA0-912E-17C2-CD7B1A2CB216</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
