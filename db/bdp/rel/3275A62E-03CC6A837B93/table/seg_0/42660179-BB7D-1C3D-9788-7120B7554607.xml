@@ -3,7 +3,7 @@
 <createdBy>karol</createdBy>
 <createdTime>2024-01-16 09:16:35 UTC</createdTime>
 <generatorID>6252285C-DFCD-F055-129D-7B8FEBD970E2</generatorID>
-<ownerDesignName>bazka</ownerDesignName>
+<ownerDesignName>bdp</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -12,7 +12,7 @@
 <createdBy>karol</createdBy>
 <createdTime>2024-01-16 09:16:35 UTC</createdTime>
 <generatorID>4B77D631-86DC-2A82-C3B0-79A1ED566C33</generatorID>
-<ownerDesignName>bazka</ownerDesignName>
+<ownerDesignName>bdp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -23,7 +23,7 @@
 <createdBy>karol</createdBy>
 <createdTime>2024-01-16 09:16:35 UTC</createdTime>
 <generatorID>C39A5EC7-34EE-A6F7-2844-48B4CE2370D8</generatorID>
-<ownerDesignName>bazka</ownerDesignName>
+<ownerDesignName>bdp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -35,7 +35,7 @@
 <createdBy>karol</createdBy>
 <createdTime>2024-01-16 09:16:35 UTC</createdTime>
 <generatorID>49ECEA6B-3F83-C41A-76C7-85AD27883966</generatorID>
-<ownerDesignName>bazka</ownerDesignName>
+<ownerDesignName>bdp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -47,7 +47,7 @@
 <createdBy>karol</createdBy>
 <createdTime>2024-01-16 09:16:35 UTC</createdTime>
 <generatorID>F6A7E63C-9BAD-32FD-CE20-3001AE73863B</generatorID>
-<ownerDesignName>bazka</ownerDesignName>
+<ownerDesignName>bdp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -59,7 +59,7 @@
 <createdBy>karol</createdBy>
 <createdTime>2024-01-16 09:16:35 UTC</createdTime>
 <generatorID>3D2358E2-EE55-9431-AFBF-584C5825DB42</generatorID>
-<ownerDesignName>bazka</ownerDesignName>
+<ownerDesignName>bdp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -71,7 +71,7 @@
 <createdBy>karol</createdBy>
 <createdTime>2024-01-16 09:16:35 UTC</createdTime>
 <generatorID>A7C16C8F-6C2E-FDED-3C97-C569050657A9</generatorID>
-<ownerDesignName>bazka</ownerDesignName>
+<ownerDesignName>bdp</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -84,7 +84,7 @@
 <createdBy>karol</createdBy>
 <createdTime>2024-01-16 09:16:35 UTC</createdTime>
 <generatorID>FEE01C9B-6C26-EBEF-9252-9FC05D3C5A17</generatorID>
-<ownerDesignName>bazka</ownerDesignName>
+<ownerDesignName>bdp</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -96,7 +96,7 @@
 <createdBy>karol</createdBy>
 <createdTime>2024-01-16 09:16:35 UTC</createdTime>
 <generatorID>CC7BCDC3-48BE-721C-1239-51571B551D28</generatorID>
-<ownerDesignName>bazka</ownerDesignName>
+<ownerDesignName>bdp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -108,7 +108,7 @@
 <createdBy>karol</createdBy>
 <createdTime>2024-01-16 09:16:35 UTC</createdTime>
 <generatorID>88902316-32C4-E6A0-BB03-5BD58B6CC549</generatorID>
-<ownerDesignName>bazka</ownerDesignName>
+<ownerDesignName>bdp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -119,7 +119,7 @@
 <createdBy>karol</createdBy>
 <createdTime>2024-01-16 09:16:35 UTC</createdTime>
 <generatorID>861FD6C2-E217-B9D0-D3DA-9EF02377EB9C</generatorID>
-<ownerDesignName>bazka</ownerDesignName>
+<ownerDesignName>bdp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -130,7 +130,7 @@
 <createdBy>karol</createdBy>
 <createdTime>2024-01-16 09:16:35 UTC</createdTime>
 <generatorID>1C179838-9FEF-8AB2-387C-055EBF36FAEB</generatorID>
-<ownerDesignName>bazka</ownerDesignName>
+<ownerDesignName>bdp</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -146,7 +146,7 @@
 <createdBy>karol</createdBy>
 <createdTime>2024-01-16 09:16:35 UTC</createdTime>
 <generatorID>2DCC4DF0-0686-79DB-78D7-903775CEB55C</generatorID>
-<ownerDesignName>bazka</ownerDesignName>
+<ownerDesignName>bdp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT018</logicalDatatype>
@@ -163,7 +163,7 @@
 <createdBy>karol</createdBy>
 <createdTime>2024-01-16 09:16:35 UTC</createdTime>
 <generatorID>1E75FDEB-2520-2345-5670-3B662EE1B7A7</generatorID>
-<ownerDesignName>bazka</ownerDesignName>
+<ownerDesignName>bdp</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -175,18 +175,44 @@
 <createdBy>karol</createdBy>
 <createdTime>2024-01-16 09:16:35 UTC</createdTime>
 <generatorID>2043457F-9076-74C2-4557-40BAE76E0DCA</generatorID>
-<ownerDesignName>bazka</ownerDesignName>
+<ownerDesignName>bdp</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B6624D6D-E2C4-E426-A607-799B3A7F42B1"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="58BBEE91-85C3-18D5-62F0-DA56DB210BBD" name="Customer_UIDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-16 12:06:52 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A863FD3-680F-3283-7047-0985084BFDB0"/>
+<colUsage columnID="B6624D6D-E2C4-E426-A607-799B3A7F42B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="823F7411-4684-1195-F139-A708B689C18A" name="Customer_IDX">
+<createdBy>VladiMr</createdBy>
+<createdTime>2024-01-16 12:06:52 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4BC9889-B45A-EB62-0E87-D4E9AC2E84AA"/>
+<colUsage columnID="8CE18E5D-5ED1-ED16-C3B5-67995E5C2175"/>
+<colUsage columnID="99ECA5F1-1EA9-176B-BD86-09099E8B32ED"/>
+<colUsage columnID="E4D96A53-BE7B-49DC-6F40-DF69D70A3ABE"/>
+<colUsage columnID="B3E3539F-7846-E2F7-2ADB-D445E5085D4C"/>
+<colUsage columnID="C6639333-9D4B-2AF0-D914-88872B95A294" sortOrder="DESC"/>
+<colUsage columnID="4ABEDB8A-781D-2691-D68E-0BE3A19DB909" sortOrder="DESC"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="101A6B7D-5803-0CB5-863D-9FD77A1D580F" name="Administrator_FK">
 <createdBy>karol</createdBy>
 <createdTime>2024-01-16 09:16:35 UTC</createdTime>
 <generatorID>4EC98F5F-72C3-F1FE-BAAA-B6E429AC9F29</generatorID>
-<ownerDesignName>bazka</ownerDesignName>
+<ownerDesignName>bdp</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -197,7 +223,7 @@
 <createdBy>karol</createdBy>
 <createdTime>2024-01-16 09:16:35 UTC</createdTime>
 <generatorID>8F6821A3-A655-BEAD-CE6A-3D5FB710D855</generatorID>
-<ownerDesignName>bazka</ownerDesignName>
+<ownerDesignName>bdp</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
