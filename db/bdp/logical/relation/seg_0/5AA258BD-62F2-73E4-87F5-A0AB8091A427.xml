@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Answear Question FK" directorySegmentName="seg_0" id="5AA258BD-62F2-73E4-87F5-A0AB8091A427">
+<createdBy>student</createdBy>
+<createdTime>2023-10-17 08:15:46 UTC</createdTime>
+<ownerDesignName>bazka</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+</engineerTo>
+<sourcePk>46B65C0F-2831-39B6-E6F9-9901D188E7AC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>067F5BA3-FD4D-AA73-C950-F466C4621D9F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A787A436-9C60-F1F6-86AD-FF468F67E100</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
