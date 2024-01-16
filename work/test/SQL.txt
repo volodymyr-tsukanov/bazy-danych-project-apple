@@ -4,38 +4,21 @@ CREATE TABLE administrator (
     phonenumber      VARCHAR2(11 CHAR) NOT NULL
 );
 
-CREATE UNIQUE INDEX administrator_uidx ON
-    administrator (
-        administratorkey
-    ASC );
-
-CREATE INDEX administrator_idx ON
-    administrator (
-        name
-    ASC,
-        phonenumber
-    ASC );
-
 ALTER TABLE administrator ADD CONSTRAINT administrator_pk PRIMARY KEY ( administratorkey );
 
 ALTER TABLE administrator ADD CONSTRAINT administrator_name_un UNIQUE ( name );
 
 ALTER TABLE administrator ADD CONSTRAINT administrator_phonenumber_un UNIQUE ( phonenumber );
 
-CREATE TABLE answear (
-    answearkey    INTEGER NOT NULL,
+CREATE TABLE answer (
+    answerkey     INTEGER NOT NULL,
     body          VARCHAR2(250 CHAR) NOT NULL,
-    questionkey   INTEGER NOT NULL,
+    questionkey   INTEGER,
     salespointkey INTEGER,
     employeekey   INTEGER NOT NULL
 );
 
-CREATE UNIQUE INDEX answear_uidx ON
-    answear (
-        answearkey
-    ASC );
-
-ALTER TABLE answear ADD CONSTRAINT answear_pk PRIMARY KEY ( answearkey );
+ALTER TABLE answer ADD CONSTRAINT answer_pk PRIMARY KEY ( answerkey );
 
 CREATE TABLE city (
     citykey    INTEGER NOT NULL,
@@ -43,18 +26,6 @@ CREATE TABLE city (
     postalcode VARCHAR2(50 CHAR) NOT NULL,
     countrykey SMALLINT NOT NULL
 );
-
-CREATE UNIQUE INDEX city_uidx ON
-    city (
-        citykey
-    ASC );
-
-CREATE INDEX city_idx ON
-    city (
-        postalcode
-    ASC,
-        name
-    ASC );
 
 ALTER TABLE city ADD CONSTRAINT city_pk PRIMARY KEY ( citykey );
 
@@ -66,18 +37,6 @@ CREATE TABLE country (
     code              VARCHAR2(50 CHAR) NOT NULL,
     salesterritorykey SMALLINT NOT NULL
 );
-
-CREATE UNIQUE INDEX country_uidx ON
-    country (
-        countrykey
-    ASC );
-
-CREATE INDEX country_idx ON
-    country (
-        code
-    ASC,
-        name
-    ASC );
 
 ALTER TABLE country ADD CONSTRAINT country_pk PRIMARY KEY ( countrykey );
 
@@ -103,17 +62,17 @@ CREATE TABLE customer (
 CREATE UNIQUE INDEX customer_uidx ON
     customer (
         customerkey
+    ASC,
+        email
     ASC );
 
 CREATE INDEX customer_idx ON
     customer (
-        email
-    ASC,
-        phonenumber
-    ASC,
         lastname
     ASC,
         firstname
+    ASC,
+        phonenumber
     ASC,
         address
     ASC,
@@ -133,16 +92,6 @@ CREATE TABLE deliverymethod (
     name              VARCHAR2(50 CHAR) NOT NULL
 );
 
-CREATE UNIQUE INDEX deliverymethod_uidx ON
-    deliverymethod (
-        deliverymethodkey
-    ASC );
-
-CREATE INDEX deliverymethod_idx ON
-    deliverymethod (
-        name
-    ASC );
-
 ALTER TABLE deliverymethod ADD CONSTRAINT deliverymethod_pk PRIMARY KEY ( deliverymethodkey );
 
 ALTER TABLE deliverymethod ADD CONSTRAINT deliverymethod_name_un UNIQUE ( name );
@@ -155,22 +104,6 @@ CREATE TABLE employee (
     phonenumber   VARCHAR2(11 CHAR) NOT NULL,
     salespointkey INTEGER NOT NULL
 );
-
-CREATE UNIQUE INDEX employee_uidx ON
-    employee (
-        employeekey
-    ASC );
-
-CREATE INDEX employee_idx ON
-    employee (
-        phonenumber
-    ASC,
-        email
-    ASC,
-        lastname
-    ASC,
-        firstname
-    ASC );
 
 ALTER TABLE employee ADD CONSTRAINT employee_pk PRIMARY KEY ( employeekey );
 
@@ -192,6 +125,8 @@ CREATE TABLE orderdetail (
 CREATE UNIQUE INDEX orderdetail_uidx ON
     orderdetail (
         orderdetailkey
+    ASC,
+        refundkey
     ASC );
 
 CREATE INDEX orderdetail_idx ON
@@ -203,10 +138,23 @@ CREATE INDEX orderdetail_idx ON
         discountamount
     ASC,
         discountpercentage
+    ASC,
+        quantity
     ASC );
 
 ALTER TABLE orderdetail ADD CONSTRAINT orderdetail_pk PRIMARY KEY ( orderdetailkey,
                                                                     orderkey );
+
+CREATE TABLE orderdetail_product_fk (
+    productkey     INTEGER NOT NULL,
+    orderdetailkey INTEGER NOT NULL,
+    od_oh_orderkey INTEGER NOT NULL
+);
+
+ALTER TABLE orderdetail_product_fk
+    ADD CONSTRAINT orderdetail_product_fk_pk PRIMARY KEY ( productkey,
+                                                           orderdetailkey,
+                                                           od_oh_orderkey );
 
 CREATE TABLE orderheader (
     orderkey          INTEGER NOT NULL,
@@ -242,16 +190,6 @@ CREATE TABLE orderstatus (
     name           VARCHAR2(50 CHAR) NOT NULL
 );
 
-CREATE UNIQUE INDEX orderstatus_uidx ON
-    orderstatus (
-        orderstatuskey
-    ASC );
-
-CREATE INDEX orderstatus_idx ON
-    orderstatus (
-        name
-    ASC );
-
 ALTER TABLE orderstatus ADD CONSTRAINT orderstatus_pk PRIMARY KEY ( orderstatuskey );
 
 ALTER TABLE orderstatus ADD CONSTRAINT orderstatus_name_un UNIQUE ( name );
@@ -260,16 +198,6 @@ CREATE TABLE paymentmethod (
     paymentmethodkey SMALLINT NOT NULL,
     name             VARCHAR2(50 CHAR) NOT NULL
 );
-
-CREATE UNIQUE INDEX paymentmethod_uidx ON
-    paymentmethod (
-        paymentmethodkey
-    ASC );
-
-CREATE INDEX paymentmethod_idx ON
-    paymentmethod (
-        name
-    ASC );
 
 ALTER TABLE paymentmethod ADD CONSTRAINT paymentmethod_pk PRIMARY KEY ( paymentmethodkey );
 
@@ -283,18 +211,6 @@ CREATE TABLE product (
     productsubcategorykey SMALLINT NOT NULL
 );
 
-CREATE UNIQUE INDEX product_uidx ON
-    product (
-        productkey
-    ASC );
-
-CREATE INDEX product_idx ON
-    product (
-        code
-    ASC,
-        name
-    ASC );
-
 ALTER TABLE product ADD CONSTRAINT product_pk PRIMARY KEY ( productkey );
 
 ALTER TABLE product ADD CONSTRAINT product_code_un UNIQUE ( code );
@@ -306,51 +222,15 @@ CREATE TABLE productcategory (
     name               VARCHAR2(50 CHAR) NOT NULL
 );
 
-CREATE UNIQUE INDEX productcategory_uidx ON
-    productcategory (
-        productcategorykey
-    ASC );
-
-CREATE INDEX productcategory_idx ON
-    productcategory (
-        name
-    ASC );
-
 ALTER TABLE productcategory ADD CONSTRAINT productcategory_pk PRIMARY KEY ( productcategorykey );
 
 ALTER TABLE productcategory ADD CONSTRAINT productcategory_name_un UNIQUE ( name );
-
-CREATE TABLE productlist (
-    product_productkey INTEGER NOT NULL,
-    od_orderdetailkey  INTEGER NOT NULL,
-    od_oh_orderkey     INTEGER NOT NULL
-);
-
-CREATE UNIQUE INDEX productlist_uidx ON
-    productlist (
-        product_productkey
-    ASC );
-
-ALTER TABLE productlist
-    ADD CONSTRAINT orderdetail_product_fk_pk PRIMARY KEY ( product_productkey,
-                                                           od_orderdetailkey,
-                                                           od_oh_orderkey );
 
 CREATE TABLE productsubcategory (
     productsubcategorykey SMALLINT NOT NULL,
     name                  VARCHAR2(50 CHAR) NOT NULL,
     productcategorykey    SMALLINT NOT NULL
 );
-
-CREATE UNIQUE INDEX productsubcategory_uidx ON
-    productsubcategory (
-        productsubcategorykey
-    ASC );
-
-CREATE INDEX productsubcategory_idx ON
-    productsubcategory (
-        name
-    ASC );
 
 ALTER TABLE productsubcategory ADD CONSTRAINT productsubcategory_pk PRIMARY KEY ( productsubcategorykey );
 
@@ -364,16 +244,6 @@ CREATE TABLE question (
     productkey  INTEGER NOT NULL
 );
 
-CREATE UNIQUE INDEX question_uidx ON
-    question (
-        questionkey
-    ASC );
-
-CREATE INDEX question_idx ON
-    question (
-        title
-    ASC );
-
 ALTER TABLE question ADD CONSTRAINT question_pk PRIMARY KEY ( questionkey );
 
 CREATE TABLE refund (
@@ -383,20 +253,6 @@ CREATE TABLE refund (
     "Date"       DATE NOT NULL
 );
 
-CREATE UNIQUE INDEX refund_uidx ON
-    refund (
-        refundkey
-    ASC );
-
-CREATE INDEX refund_idx ON
-    refund (
-        "Date"
-    DESC,
-        title
-    ASC,
-        refundoption
-    ASC );
-
 ALTER TABLE refund ADD CONSTRAINT refund_pk PRIMARY KEY ( refundkey );
 
 CREATE TABLE salereport (
@@ -405,18 +261,6 @@ CREATE TABLE salereport (
     "Date"        DATE NOT NULL,
     salespointkey INTEGER NOT NULL
 );
-
-CREATE UNIQUE INDEX salereport_uidx ON
-    salereport (
-        salereportkey
-    ASC );
-
-CREATE INDEX salereport_idx ON
-    salereport (
-        "Date"
-    DESC,
-        title
-    ASC );
 
 ALTER TABLE salereport ADD CONSTRAINT salereport_pk PRIMARY KEY ( salereportkey );
 
@@ -432,12 +276,12 @@ CREATE TABLE salespoint (
 CREATE UNIQUE INDEX salespoint_uidx ON
     salespoint (
         salespointkey
+    ASC,
+        address
     ASC );
 
 CREATE INDEX salespoint_idx ON
     salespoint (
-        address
-    ASC,
         contactnumber
     ASC,
         modificationdate
@@ -451,16 +295,6 @@ CREATE TABLE salesterritory (
     salesterritorykey SMALLINT NOT NULL,
     name              VARCHAR2(50 CHAR) NOT NULL
 );
-
-CREATE UNIQUE INDEX salesterritory_uidx ON
-    salesterritory (
-        salesterritorykey
-    ASC );
-
-CREATE INDEX salesterritory_idx ON
-    salesterritory (
-        name
-    ASC );
 
 ALTER TABLE salesterritory ADD CONSTRAINT salesterritory_pk PRIMARY KEY ( salesterritorykey );
 
@@ -490,11 +324,11 @@ ALTER TABLE orderheader
     ADD CONSTRAINT country_fkv1 FOREIGN KEY ( countrykey )
         REFERENCES country ( countrykey );
 
-ALTER TABLE orderheader
+ALTER TABLE question
     ADD CONSTRAINT customer_fk FOREIGN KEY ( customerkey )
         REFERENCES customer ( customerkey );
 
-ALTER TABLE question
+ALTER TABLE orderheader
     ADD CONSTRAINT customer_fkv1 FOREIGN KEY ( customerkey )
         REFERENCES customer ( customerkey );
 
@@ -502,15 +336,19 @@ ALTER TABLE orderheader
     ADD CONSTRAINT deliverymethod_fk FOREIGN KEY ( deliverymethodkey )
         REFERENCES deliverymethod ( deliverymethodkey );
 
-ALTER TABLE answear
+ALTER TABLE answer
     ADD CONSTRAINT employee_fk FOREIGN KEY ( employeekey )
         REFERENCES employee ( employeekey );
 
-ALTER TABLE productlist
-    ADD CONSTRAINT orderdetail_fk FOREIGN KEY ( od_orderdetailkey,
-                                                od_oh_orderkey )
+ALTER TABLE orderdetail_product_fk
+    ADD CONSTRAINT od_product_fk_odl_fk FOREIGN KEY ( orderdetailkey,
+                                                      od_oh_orderkey )
         REFERENCES orderdetail ( orderdetailkey,
                                  orderkey );
+
+ALTER TABLE orderdetail_product_fk
+    ADD CONSTRAINT od_product_fk_product_fk FOREIGN KEY ( productkey )
+        REFERENCES product ( productkey );
 
 ALTER TABLE orderdetail
     ADD CONSTRAINT orderheader_fk FOREIGN KEY ( orderkey )
@@ -528,10 +366,6 @@ ALTER TABLE question
     ADD CONSTRAINT product_fk FOREIGN KEY ( productkey )
         REFERENCES product ( productkey );
 
-ALTER TABLE productlist
-    ADD CONSTRAINT product_fkv1 FOREIGN KEY ( product_productkey )
-        REFERENCES product ( productkey );
-
 ALTER TABLE productsubcategory
     ADD CONSTRAINT productcategory_fk FOREIGN KEY ( productcategorykey )
         REFERENCES productcategory ( productcategorykey );
@@ -540,7 +374,7 @@ ALTER TABLE product
     ADD CONSTRAINT productsubcategory_fk FOREIGN KEY ( productsubcategorykey )
         REFERENCES productsubcategory ( productsubcategorykey );
 
-ALTER TABLE answear
+ALTER TABLE answer
     ADD CONSTRAINT question_fk FOREIGN KEY ( questionkey )
         REFERENCES question ( questionkey );
 
@@ -548,23 +382,23 @@ ALTER TABLE orderdetail
     ADD CONSTRAINT refund_fk FOREIGN KEY ( refundkey )
         REFERENCES refund ( refundkey );
 
-ALTER TABLE orderheader
+ALTER TABLE answer
     ADD CONSTRAINT salespoint_fk FOREIGN KEY ( salespointkey )
         REFERENCES salespoint ( salespointkey );
 
-ALTER TABLE answear
+ALTER TABLE product
     ADD CONSTRAINT salespoint_fkv1 FOREIGN KEY ( salespointkey )
         REFERENCES salespoint ( salespointkey );
 
-ALTER TABLE product
+ALTER TABLE employee
     ADD CONSTRAINT salespoint_fkv2 FOREIGN KEY ( salespointkey )
         REFERENCES salespoint ( salespointkey );
 
-ALTER TABLE employee
+ALTER TABLE salereport
     ADD CONSTRAINT salespoint_fkv3 FOREIGN KEY ( salespointkey )
         REFERENCES salespoint ( salespointkey );
 
-ALTER TABLE salereport
+ALTER TABLE orderheader
     ADD CONSTRAINT salespoint_fkv4 FOREIGN KEY ( salespointkey )
         REFERENCES salespoint ( salespointkey );
 
