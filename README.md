@@ -4,7 +4,7 @@ SQL; Oracle Database; Informatyka l stopień 3 semestr</br></br>
 
 ![Re-apple icon](icon/re-apple.png)
 
-![Project script](work/Skrypt.pdf)
+![Project script](work/Script.pdf)
 
 ## Logical database model
 ![Logical model](work/r5/Logical.png)
