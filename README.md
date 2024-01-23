@@ -2,7 +2,7 @@
 Baza danych dla systemu sprzedaży produktów marki Apple</br>
 SQL; Oracle Database; Informatyka l stopień 3 semestr</br></br>
 
-![Re-apple icon](icon/re-apple.png)
+![Pear icon](icon/pear.png)
 
 ![Project script](work/Script.pdf)
 
