@@ -1,11 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_22" directorySegmentName="seg_0" id="1761565A-7BB6-3BF8-FCA9-8665558F0F0A">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Question Product FK" directorySegmentName="seg_0" id="1761565A-7BB6-3BF8-FCA9-8665558F0F0A">
 <createdBy>student</createdBy>
 <createdTime>2023-10-17 08:11:39 UTC</createdTime>
-<ownerDesignName>bdp</ownerDesignName>
+<ownerDesignName>bazka</ownerDesignName>
 <engineerTo>
-<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
 </engineerTo>
+<sourcePk>A039BC68-F5DC-2784-01D8-FF411DA2A9A2</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>

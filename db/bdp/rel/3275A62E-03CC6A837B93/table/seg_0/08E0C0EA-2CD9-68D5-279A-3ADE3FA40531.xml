@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08E0C0EA-2CD9-68D5-279A-3ADE3FA40531" name="City">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>4F4230F6-9DB6-C505-227A-37058F17F4BB</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CityKey" id="ADCAA93A-D683-9615-468F-EB4350243EAD">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>2C93C47E-054F-EF39-768A-6D3F05E970ED</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="31F8FE4D-B72D-FB45-01F2-90E8CD1B81CA">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>0CF4B6EC-1282-8F85-7831-E841EBD0CD8B</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PostalCode" id="2DE7CF99-69FB-E668-F60A-03376F96B43A">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>778238D4-AE5E-D960-BD05-F8902EF72DBF</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CountryKey" id="9DF0ECCF-EABD-2E4A-1DEE-52A5514F8BAF">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>A64ECA43-530D-A7E9-151F-7D061D9FC1C0</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7707E7C2-DE27-3B55-A655-E53C5FBD2AF5" referredColumn="71FF0E01-A75B-DD9B-BD04-A5723C7E94A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B0C1BB8-7A40-03B2-BAAF-203A631D0AA6" name="City_PK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>FC26A217-0CE4-C68A-6579-50CCBC27C904</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADCAA93A-D683-9615-468F-EB4350243EAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2ECE7EC3-3D43-264C-EB36-EC2DC44F536B" name="City_PostalCode_UN">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>A013D199-F722-5BCD-217F-1EA28AFE9EE9</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DE7CF99-69FB-E668-F60A-03376F96B43A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EED57F57-C651-A2D0-8121-472F3B2141D5" name="Country_FK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>781CFAF6-5A3D-5C06-FFE8-C0E67D2BA349</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DF0ECCF-EABD-2E4A-1DEE-52A5514F8BAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

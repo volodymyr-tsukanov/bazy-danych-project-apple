@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AAB7012-9F35-A789-C273-DFB4A547E77D" name="OrderDetail_Product_FK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<ownerDesignName>bazka</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProductKey" id="61922D84-7455-F75A-4B03-973AF8100034">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<ownerDesignName>bazka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A68A275B-279F-E3B6-7925-67408860528F" referredColumn="2F249641-6A16-E3DC-3234-3E88CE35E184"/>
+</associations>
+</Column>
+<Column name="OrderDetailKey" id="4896A82F-AC03-55CD-90E2-5ED22D4F16D6">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<ownerDesignName>bazka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF776E0D-F6EE-B6CC-1CB6-DFC9C399EE87" referredColumn="440E7627-4552-6556-8F25-16E6EE916E55"/>
+</associations>
+</Column>
+<Column name="OD_OH_OrderKey" id="19FF0AE7-11B2-F116-966E-668320372307">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<ownerDesignName>bazka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF776E0D-F6EE-B6CC-1CB6-DFC9C399EE87" referredColumn="BCF1E8A1-FB68-4AA0-4CB2-09BB4FDCB692"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFB3F3FE-E63D-7A05-D7A0-6EE09691CB26" name="OrderDetail_Product_FK_PK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<ownerDesignName>bazka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61922D84-7455-F75A-4B03-973AF8100034"/>
+<colUsage columnID="4896A82F-AC03-55CD-90E2-5ED22D4F16D6"/>
+<colUsage columnID="19FF0AE7-11B2-F116-966E-668320372307"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F75C50C-163C-03E6-786C-30297341FDE5" name="OD_Product_FK_Product_FK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>0FB7DCEF-2710-0501-54C8-093B9CED694F</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61922D84-7455-F75A-4B03-973AF8100034"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4553DFD1-AF31-D5BC-FF31-45A1928053BE" name="OD_Product_FK_ODl_FK">
+<createdBy>karol</createdBy>
+<createdTime>2024-01-16 09:16:35 UTC</createdTime>
+<generatorID>0FB7DCEF-2710-0501-54C8-093B9CED694F</generatorID>
+<ownerDesignName>bazka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4896A82F-AC03-55CD-90E2-5ED22D4F16D6"/>
+<colUsage columnID="19FF0AE7-11B2-F116-966E-668320372307"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

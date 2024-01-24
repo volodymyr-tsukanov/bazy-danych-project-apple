@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDFEB0B6-5796-811E-AECB-7126FBE63775" name="Payment Method">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDFEB0B6-5796-811E-AECB-7126FBE63775" name="PaymentMethod">
 <createdBy>student</createdBy>
 <createdTime>2023-10-17 08:00:31 UTC</createdTime>
-<ownerDesignName>bdp</ownerDesignName>
+<ownerDesignName>bazka</ownerDesignName>
 <engineerTo>
-<item key="6BDC63A4-B2B6-ABE4-2499-2F61848E4C2B" value="true"/>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,4 +14,60 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PaymentMethodKey" id="E1996F7F-8E12-B071-4921-64EA61835579">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:48:06 UTC</createdTime>
+<ownerDesignName>bazka</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="6A7493F3-405F-B31C-1523-9FDA9A31A77A">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:48:18 UTC</createdTime>
+<ownerDesignName>bazka</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+</engineerTo>
+<sourceType>Manual</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A34D4993-5DBA-F282-7FD6-B214D28012A2" name="PaymentMethod PK">
+<createdBy>VladiMr</createdBy>
+<createdTime>2023-10-19 17:48:17 UTC</createdTime>
+<ownerDesignName>bazka</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>E1996F7F-8E12-B071-4921-64EA61835579</newElementsIDs>
+<usedAttributes>
+<attributeRef>E1996F7F-8E12-B071-4921-64EA61835579</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F389E031-64E9-7F7A-DB06-DDAB28454C0B" name="PaymentMethod_Name_UN">
+<createdBy>karol</createdBy>
+<createdTime>2023-10-23 21:52:02 UTC</createdTime>
+<ownerDesignName>bazka</ownerDesignName>
+<engineerTo>
+<item key="3275A62E-2A39-891F-D0EB-03CC6A837B93" value="true"/>
+</engineerTo>
+<newElementsIDs>6A7493F3-405F-B31C-1523-9FDA9A31A77A</newElementsIDs>
+<usedAttributes>
+<attributeRef>6A7493F3-405F-B31C-1523-9FDA9A31A77A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
