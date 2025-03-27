@@ -18,8 +18,10 @@ Baza danych dla systemu sprzedaży produktów marki Apple </br>
 - [Volodymyr 👨](https://github.com/volodymyr-tsukanov)
 - [Yana 👩](https://github.com/Yannssaaaa)
 - [Daniel 👨‍🦱](https://github.com/ThePundik)
-</br></br>
+<br><br>
 
+
+![Finished](https://img.shields.io/badge/status-Finished%20%F0%9F%94%9A-3CB371?style=for-the-badge&logo=github) <br>
 
 Shields: [![EPL-2.0][epl2-shield]][epl2]
 
